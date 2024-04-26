@@ -1,9 +1,9 @@
-package framework;
+package dsutilities;
 
-import java.util.Properties;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Properties;
 
 public class ConfigurationReader {
 	public static String getProperty(String moduleName,String propertyKey) throws FileNotFoundException, IOException

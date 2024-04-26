@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-22T15:38:59 EDT" name="Default suite" finished-at="2024-04-22T15:39:00 EDT" duration-ms="738">
+  <suite started-at="2024-04-26T11:33:23 EDT" name="Default suite" finished-at="2024-04-26T11:34:12 EDT" duration-ms="49922">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Login@72cc7e6f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-22T15:38:59 EDT" name="Default test" finished-at="2024-04-22T15:39:00 EDT" duration-ms="738">
-      <class name="dsAlgoRunner.Runner_Login">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Login@72cc7e6f]" started-at="2024-04-22T15:38:59 EDT" name="setUpClass" finished-at="2024-04-22T15:38:59 EDT" duration-ms="510" status="PASS">
+    <test started-at="2024-04-26T11:33:23 EDT" name="Default test" finished-at="2024-04-26T11:34:12 EDT" duration-ms="49922">
+      <class name="dsAlgoRunner.Runner_Test">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="setUpClass" finished-at="2024-04-26T11:33:23 EDT" duration-ms="710" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5649ec46]]>
+                <![CDATA[org.testng.TestRunner@3add81c4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Login@72cc7e6f]" started-at="2024-04-22T15:38:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-22T15:38:59 EDT" duration-ms="115" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-26T11:33:30 EDT" duration-ms="6850" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,21 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
-            <message>
-              <![CDATA[TODO: implement me]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at dsAlgoStepDefinition.Login_stepdefinition.user_is_on_ds_algo_introduction_page(Login_stepdefinition.java:11)
-at ✽.user is on DS Algo Introduction Page(file:///C:/Users/sofia/eclipse-workspace/DSAlgoProject/src/test/resources/Features/loginFeature.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Login@72cc7e6f]" started-at="2024-04-22T15:39:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-22T15:39:00 EDT" duration-ms="33" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-26T11:33:32 EDT" duration-ms="8593" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,25 +50,46 @@ at ✽.user is on DS Algo Introduction Page(file:///C:/Users/sofia/eclipse-works
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
-            <message>
-              <![CDATA[TODO: implement me]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at dsAlgoStepDefinition.Login_stepdefinition.user_is_on_ds_algo_sign_in_page(Login_stepdefinition.java:35)
-at ✽.user is on DS Algo Sign in Page(file:///C:/Users/sofia/eclipse-workspace/DSAlgoProject/src/test/resources/Features/loginFeature.feature:12)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Login@72cc7e6f]" started-at="2024-04-22T15:39:00 EDT" name="tearDownClass" finished-at="2024-04-22T15:39:00 EDT" duration-ms="21" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-26T11:33:32 EDT" duration-ms="8763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["F4S2 DS Algo Sign in Page, test that user Sign In successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F4 As a user, I am able to open the browser and Sign In in dsalgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-26T11:34:12 EDT" duration-ms="49098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration page validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User creates new account in the registration page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:34:12 EDT" name="tearDownClass" finished-at="2024-04-26T11:34:12 EDT" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- dsAlgoRunner.Runner_Login -->
+      </class> <!-- dsAlgoRunner.Runner_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
