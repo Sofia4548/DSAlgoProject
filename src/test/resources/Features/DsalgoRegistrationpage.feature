@@ -1,6 +1,6 @@
-Feature: User creates new account in the registration page 
+Feature:F2 User creates new account in the registration page 
 
-@tag1
+@F2Tag1
 Scenario:Registration page validation
 
 Given User is on the registration page

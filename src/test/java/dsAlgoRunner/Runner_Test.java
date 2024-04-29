@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin= {"pretty","html:src/test/resources/Reports/TestReport.html"},
-		features = "src/test/resources/Features",
+		features = "src/test/resources/Features/Stack.feature",
 		glue = {"dsalgo_stepdefinition","dsalgoHooks"}, 
 		tags = "",
 		monochrome = true, 
