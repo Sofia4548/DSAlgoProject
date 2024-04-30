@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import dsutilities.ConfigurationReader;
+
 
 
 
@@ -22,7 +24,7 @@ public class LoginPage{
 	private By invaildMsg=(By.xpath("//*[@class='alert alert-primary']"));
 	private By heading=(By.linkText("NumpyNinja"));
 	
-	WebElement getStartedLink;
+	//WebElement getStartedLink;
 	
 	public LoginPage(WebDriver driver)
 	{
@@ -31,6 +33,8 @@ public class LoginPage{
 	public void homePage() {
 		driver.get("https://dsportalapp.herokuapp.com/");
 		 driver.findElement(getstarted).click();
+		 
+		
 	}
 	public void signInLink()
 	{
