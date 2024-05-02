@@ -1,11 +1,10 @@
 package dsalgoPOM;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-
-
 public class DsAlgoRegistrationPage{
 private WebDriver driver;
 	
@@ -30,7 +29,7 @@ public void enterusrname(String uname) throws InterruptedException
 		driver.findElement(username).clear();
 	
 		driver.findElement(username).sendKeys(uname);	
-		Thread.sleep(2000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); 
 		
 	}
 	public void clickregisterbtn()

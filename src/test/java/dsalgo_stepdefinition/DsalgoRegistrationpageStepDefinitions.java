@@ -1,6 +1,7 @@
 package dsalgo_stepdefinition;
 
 import java.io.FileNotFoundException;
+import java.time.Duration;
 import java.io.IOException;
 
 import org.junit.Assert;
@@ -16,23 +17,21 @@ import io.cucumber.java.en.When;
 
 public class DsalgoRegistrationpageStepDefinitions {
 
-	private DsAlgoRegistrationPage registrationpage = new DsAlgoRegistrationPage(DriverFactory.getDriver());
 
+	private DsAlgoRegistrationPage registrationpage = new DsAlgoRegistrationPage(DriverFactory.getDriver());
+	
+	
 	@Given("User is on the registration page")
 	public void user_is_on_the_registration_page() throws InterruptedException, FileNotFoundException, IOException {
 
 		registrationpage.openRegistrationPage();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 
 	@When("The user clicks the register button after leaving the other fields empty and  enters the username {string}")
 	public void the_user_clicks_the_register_button_after_leaving_the_other_fields_empty_and_enters_the_username(
 			String uname) throws InterruptedException {
-
-//		driver.findElement(By.xpath("//input[contains(@id,'id_username')]")).clear();
-//		
-//		driver.findElement(By.xpath("//input[contains(@id,'id_username')]")).sendKeys(uname);	
-		Thread.sleep(2000);
+	
 		registrationpage.enterusrname(uname);
 		registrationpage.clickregisterbtn();
 	}
@@ -47,7 +46,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	@When("The user clicks the register button after leaving the other fields empty and enters the password as {string}")
 	public void the_user_clicks_the_register_button_after_leaving_the_other_fields_empty_and_enters_the_password_as(
 			String pswrd) throws InterruptedException {
-		Thread.sleep(2000);
+		
+		//Thread.sleep(2000);
 		registrationpage.clickregiserLink();
 		registrationpage.enterpassword(pswrd);
 		registrationpage.clickregisterbtn();
@@ -57,7 +57,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	@When("the user clicks the register button after leaving the other fields empty and enters the password confirmation as {string}")
 	public void the_user_clicks_the_register_button_after_leaving_the_other_fields_empty_and_enters_the_password_confirmation_as(
 			String pswrdconfirm) throws InterruptedException {
-		Thread.sleep(2000);
+		
+		//Thread.sleep(2000);
 		registrationpage.clickregiserLink();
 		registrationpage.enterpasswordconfirm(pswrdconfirm);
 		registrationpage.clickregisterbtn();
@@ -66,7 +67,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	@When("The user clicks register button after leaving username,password,passwordconfirmation as empty")
 	public void the_user_clicks_register_button_after_leaving_username_password_passwordconfirmation_as_empty()
 			throws InterruptedException {
-		Thread.sleep(2000);
+		
+		//Thread.sleep(2000);
 		registrationpage.clickregiserLink();
 		registrationpage.clickregisterbtn();
 	}
@@ -74,7 +76,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	@Then("The message is displayed below the username textbox to the user {string}")
 	public void the_message_is_displayed_below_the_username_textbox_to_the_user11(String Message)
 			throws InterruptedException {
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
+		
 		String msg = registrationpage.getMessageBelowUsername();
 		// String expectedMessage = "Please fill out this field!";
 		Assert.assertEquals(Message, msg);
@@ -85,7 +88,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	public void the_user_clicks_the_register_button_after_enters_the_username_with_specialcharacter_other_than_as(
 			String invalidname) throws InterruptedException {
 
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
+		
 		registrationpage.clickregiserLink();
 		registrationpage.enterinvalidusername(invalidname);
 		registrationpage.clickregisterbtn();
@@ -105,7 +109,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	@Then("the user will directed below the password textbox and the user able to see the message {string}")
 	public void the_user_will_directed_below_the_password_textbox_and_the_user_able_to_see_the_message(
 			String errormessage) throws InterruptedException {
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
+		
 		String msg = registrationpage.getMessageBelowPasswordTextbox().trim();
 		Assert.assertEquals(errormessage.trim(), msg);
 		System.out.println("But showing the message:" + msg + "below the password textbox");
@@ -115,7 +120,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	@When("the user clicks register button after entering the valid username and all numerical password as <{string}> and <{string}>")
 	public void the_user_clicks_register_button_after_entering_the_valid_username_and_all_numerical_password_as_and(
 			String uname, String pswrd) throws InterruptedException {
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
+		
 		registrationpage.checkpasswordwithnumbers(uname, pswrd);
 		registrationpage.clickregisterbtn();
 	}
@@ -123,7 +129,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	@When("the user clicks register button after entering the valid username and password lessthan 8characters as <{string}> and <{string}>")
 	public void the_user_clicks_register_button_after_entering_the_valid_username_and_password_lessthan_8characters_as_and(
 			String uname, String pswrd) throws InterruptedException {
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
+		
 		registrationpage.checkpswrdlength(uname, pswrd);
 		registrationpage.clickregisterbtn();
 
@@ -132,7 +139,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	@When("the user clicks register button after entering the valid user name and commonly used password as <{string}> and <{string}>")
 	public void the_user_clicks_register_button_after_entering_the_valid_user_name_and_commonly_used_password_as_and(
 			String uname, String pswrd) throws InterruptedException {
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
+		
 		registrationpage.checkcommonpswrd(uname, pswrd);
 		registrationpage.clickregisterbtn();
 	}
@@ -151,7 +159,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	public void the_message_is_displayed_below_the_password_confirmation_textbox_as(String errormessage)
 			throws InterruptedException {
 
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
+		
 		String msg = registrationpage.getMessageBelowPasswordTextbox().trim();
 		Assert.assertEquals(errormessage.trim(), msg);
 		System.out.println(msg);
@@ -162,7 +171,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	public void the_user_enters_username_and_different_password_in_password_and_password_confirmation_as(String uname,
 			String pswrd, String pswrdconfirm) throws InterruptedException {
 
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
+		
 		registrationpage.checkPasswordMismatch(uname, pswrd, pswrdconfirm);
 
 	}
@@ -191,10 +201,12 @@ public class DsalgoRegistrationpageStepDefinitions {
 	@When("the user clicks register button after entering all valid data as<{string}><{string}><{string}>")
 	public void the_user_clicks_register_button_after_entering_all_valid_data_as(String uname, String pswrd,
 			String pswrdconfirm) throws InterruptedException {
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
+		
 		registrationpage.ValidCredentials(uname, pswrd, pswrdconfirm);
 		registrationpage.clickregisterbtn();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
+		
 	}
 
 	@Then("the user directed to the DSAlogo homepage and should be able see the  success message")
