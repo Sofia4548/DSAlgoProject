@@ -9,13 +9,16 @@ import org.openqa.selenium.WebElement;
 
 import dsalgoPOM.ArrayPage;
 import dsutilities.DriverFactory;
+import dsutilities.LoggerLoad;
 import dsutilities.TestDataReadingWriting;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+
 import static org.testng.Assert.assertEquals;
 
-public class Array_stepdefinition {
+public class Array_stepdefinition  {
 	
 	ArrayPage arrayPage=new ArrayPage(DriverFactory.getDriver());
 	String outputdata;
@@ -48,7 +51,8 @@ public class Array_stepdefinition {
 	@Then("the user redirected to the clicked  link page")
 	public void the_user_redirected_to_the_clicked_link_page() {
 		String actualTitle=arrayPage.getCurrentTitle();
-		System.out.println("Actual title of current page is***** "+actualTitle);
+		LoggerLoad.info("Actual title of current page is*****"+actualTitle);	
+		//System.out.println("Actual title of current page is***** "+actualTitle);
 		
 	}
 

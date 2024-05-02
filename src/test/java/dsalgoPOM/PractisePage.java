@@ -11,6 +11,7 @@ public class PractisePage {
 	private WebDriver driver;
 	private By arraysInPythonlink=(By.xpath("//*[text()='Arrays in Python']"));
 	private By practiseLink=(By.xpath("//*[text()='Practice Questions']"));
+	private By editor=(By.xpath("//textarea[@id='editor']"));
 	public PractisePage(WebDriver driver) {
 		this.driver = driver;
 	}
@@ -43,5 +44,10 @@ public class PractisePage {
 			}
 			}
 		return linkByTopics;
+	}
+	public void enterCode(String code)
+	{
+		driver.findElement(editor).sendKeys(code);
+		//driver.findElement(runBtn).click();
 	}
 }

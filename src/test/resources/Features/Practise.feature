@@ -14,11 +14,11 @@ Feature: As a user I want to navigate to the Array home page
     When the user clicks the practise question links on the page
     Then the user is redirected to the practise question page
     When the user clicks the link from the practise page under "<Topics>"
-    #And the user clicks on run button after providing the python code from given sheetname "<Sheetname>" and rowno <RowNumber>
+    And the user clicks on run button after providing the python code for array practice from given sheetname "<Sheetname>" and rowno <RowNumber>
 #		Then the user should be able to see the output on the console 
     #Then the user should be able to see a alertbox with the "message" syntaxerror
     Examples: 
       | Topics           |  | Sheetname  |  | RowNumber |
-      | Search the Array |  | PythonCode |  |         0 |
-      | Search the Array |  | PythonCode |  |         1 |
+      | Search the array |  | PythonCode |  |         0 |
+      | Search the array |  | PythonCode |  |         1 |
      
