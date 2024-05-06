@@ -1,59 +1,63 @@
 package dsalgo_stepdefinition;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 import dsalgoPOM.ArrayPage;
 import dsutilities.DriverFactory;
+import dsutilities.ExcelUtils;
 import dsutilities.LoggerLoad;
-import dsutilities.TestDataReadingWriting;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+public class Array_stepdefinition {
 
-import static org.testng.Assert.assertEquals;
+	ArrayPage arrayPage = new ArrayPage(DriverFactory.getDriver());
+	String expectedOutput;
+	int i;
+	ExcelUtils excelUtils = new ExcelUtils();
+	String file = System.getProperty("user.dir") + "\\src\\test\\resources\\Exceldata\\dsAlgoTestData.xlsx";
+	int rows = ExcelUtils.getRowCount(file, "PythonCode");
 
-public class Array_stepdefinition  {
-	
-	ArrayPage arrayPage=new ArrayPage(DriverFactory.getDriver());
-	String outputdata;
-//	@Given("The user is on the array page")
-//	public void the_user_is_on_the_array_page() {
-//		driver.get("https://dsportalapp.herokuapp.com/array/");
-//	}
+
+	public Array_stepdefinition() throws IOException {
+		// Call superclass constructor
+		super();
+
+	}
 
 	@Given("The user is on the array page")
 	public void the_user_is_on_the_array_page() {
-	
+
 		arrayPage.arrayHomePage();
 	}
 
 	@When("the user clicks the links from the array page under {string}")
 	public void the_user_clicks_the_links_from_the_array_page_under(String topic) {
-	List<WebElement>links= arrayPage.getlinksByTopic(topic);
-	for(WebElement link:links)
-	{
-		String linkNames=link.getText();
-		link.click();
-	}
-	
-	//arrayPage.getlinksByTopic(topic);
-	//System.out.println("LINK IS"+links.getText());
-	
-		
+		List<WebElement> links = arrayPage.getlinksByTopic(topic);
+		for (WebElement link : links) {
+			String linkNames = link.getText();
+			link.click();
+		}
+
+		// arrayPage.getlinksByTopic(topic);
+		// System.out.println("LINK IS"+links.getText());
+
 	}
 
 	@Then("the user redirected to the clicked  link page")
 	public void the_user_redirected_to_the_clicked_link_page() {
-		String actualTitle=arrayPage.getCurrentTitle();
-		LoggerLoad.info("Actual title of current page is*****"+actualTitle);	
-		//System.out.println("Actual title of current page is***** "+actualTitle);
-		
+		String actualTitle = arrayPage.getCurrentTitle();
+		LoggerLoad.info("Actual title of current page is*****" + actualTitle);
+		// System.out.println("Actual title of current page is***** "+actualTitle);
+
 	}
 
 	@When("the user clicks the try here button on the page")
@@ -67,29 +71,50 @@ public class Array_stepdefinition  {
 	}
 
 	@When("the user clicks on run button after providing the python code from given sheetname {string} and rowno {int}")
-	public void the_user_clicks_on_run_button_after_providing_the_python_code_from_given_sheetname_and_rowno(String sheetname, Integer rowno) throws InvalidFormatException, IOException {
-	   TestDataReadingWriting reader=new TestDataReadingWriting();
-	   List<Map<String,String>> gettextdata=reader.getData("C:/Users/sofia/eclipse-workspace/DSAlgoProject/src/test/resources/Exceldata/dsAlgoTestData.xlsx",sheetname);
-	   String inputdata=gettextdata.get(rowno).get("Inputpythoncode");
-	    outputdata=gettextdata.get(rowno).get("ExpectedOutput");
-	   System.out.println("inputdata is "+inputdata);
-	   System.out.println("outputdata is "+outputdata);
-	   arrayPage.enterCode(inputdata);
-	   
+	public void the_user_clicks_on_run_button_after_providing_the_python_code_from_given_sheetname_and_rowno(
+			String sheetname, Integer rowno) throws InvalidFormatException, IOException {
+
+		// read data from excel file
+		String inputPythonCode = ExcelUtils.getCellData(file, sheetname, rowno, 0);
+		expectedOutput = ExcelUtils.getCellData(file, sheetname, rowno, 1);
+		System.out.println("@@@@@@" + inputPythonCode);
+		System.out.println("Expected Output isssssssss" + expectedOutput);
+
+		// pass data to app
+		arrayPage.enterCode(inputPythonCode);
+
+		// validation and update results in excel
+
+		String actualOutput = arrayPage.getOutput();
+		System.out.println("Actual output issssssssss" + actualOutput);
+		assertEquals(actualOutput, expectedOutput);
+		if (expectedOutput.equals(actualOutput)) {
+			System.out.println("Test Passed");
+			ExcelUtils.setCellData(file, sheetname, rowno, 3, "Passed");
+			ExcelUtils.fillGreenColor(file, sheetname, rowno, 3);
+		}
+
 	}
 
-	@Then("the user should be able to see the output on the console for the valid data")
-	public void the_user_should_be_able_to_see_the_output_on_the_console_for_the_valid_data() {
-	    String actualOutput=arrayPage.getOutput();
-	  
-	    assertEquals(actualOutput,outputdata);
+	@When("the user clicks on run button after providing the invaild python code from given sheetname {string} and rowno {int}")
+	public void the_user_clicks_on_run_button_after_providing_the_invaild_python_code_from_given_sheetname_and_rowno(
+			String sheetname, Integer rowno) throws IOException, InterruptedException {
+		String inputPythonCode = ExcelUtils.getCellData(file, sheetname, rowno, 0);
+		expectedOutput = ExcelUtils.getCellData(file, sheetname, rowno, 1);
+		System.out.println("@@@@@@" + inputPythonCode);
+		System.out.println("Expected Output isssssssss" + expectedOutput);
+
+		// pass data to app
+		arrayPage.enterCode(inputPythonCode);
+		String actualAlertText = arrayPage.getAlertMsg();
+		System.out.println("Actual Alert Text is " + actualAlertText);
+		assertEquals(actualAlertText, expectedOutput);
+		if (expectedOutput.equals(actualAlertText)) {
+			System.out.println("Test Failed");
+			ExcelUtils.setCellData(file, "PythonCode", rowno, 3, "Failed");
+			ExcelUtils.fillRedColor(file, "PythonCode", rowno, 3);
+		}
+
 	}
-
-
-
-
-
-
-
 
 }

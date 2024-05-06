@@ -11,7 +11,7 @@ public ChromeOptions getChromeOptions()
 {
 	ChromeOptions options = new ChromeOptions();
 	options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-	
+	options.addArguments("--headless");
 	return options;
 }
 public FirefoxOptions getFireFoxOptions()
