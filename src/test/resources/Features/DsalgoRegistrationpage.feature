@@ -1,7 +1,8 @@
+@UserRegistration
 Feature:F2 User creates new account in the registration page 
 
-@F2Tag1
-Scenario:Registration page validation
+@F2T1
+Scenario: Registration page validation
 
 Given User is on the registration page
 When The user clicks the register button after leaving the other fields empty and  enters the username "Testscripters" 

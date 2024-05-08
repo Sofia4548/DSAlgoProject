@@ -22,13 +22,13 @@ private WebDriver driver;
 	
 	public void openRegistrationPage() {
 	        driver.get("https://dsportalapp.herokuapp.com/register");
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    }
 	
 public void enterusrname(String uname) throws InterruptedException
 	{
 		driver.findElement(username).clear();
-	
-		driver.findElement(username).sendKeys(uname);	
+	    driver.findElement(username).sendKeys(uname);	
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); 
 		
 	}
@@ -51,7 +51,6 @@ public void enterusrname(String uname) throws InterruptedException
 	{
 		WebElement activeElement = driver.switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
-		//System.out.println("Actual message appeared on screen: " + messageStr);
 		return(messageStr);
 		
 	}
@@ -115,7 +114,7 @@ public void enterusrname(String uname) throws InterruptedException
 		
 	}
 	
-	public void clickregiserLink()
+	public void clickregisterLink()
 	{
 		driver.findElement(registerlink).click();
 	}
