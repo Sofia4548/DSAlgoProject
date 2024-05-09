@@ -1,5 +1,7 @@
 package dsalgoPOM;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,16 +9,11 @@ import org.openqa.selenium.WebElement;
 
 
 public class DsAlgoRegistrationPage{
-private WebDriver driver;
-	
+	private WebDriver driver;
 	private By username=By.xpath("//input[contains(@id,'id_username')]");
 	private By password=By.xpath("//input[contains(@id,'id_password1')]");
 	private By passwordconfirm=By.xpath("//input[contains(@id,'id_password2')]");
 	private By registerbtn=By.xpath("//input[@type='submit' and @value='Register']");
-	private By msgunderusername=By.xpath("//div[@class='col-sm']//input[1]");
-	//private By verifypage=By.xpath("//span[@class='helptext']//ul ']");
-	private By mismatchpswrderror=By.xpath("//div[@class='alert alert-primary']");
-	private By checkmessage=By.xpath("//span[text()='Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.']");
 	private By pswrdmismatcherror=By.xpath(" //*[contains(@class,'alert alert-primary')]");
 	private By successmsg=By.xpath("//div[@class='alert alert-primary']");
 	private By registerlink=By.xpath("//ul//a[text()=' Register ']");
@@ -27,14 +24,14 @@ private WebDriver driver;
 	
 	public void openRegistrationPage() {
 	        driver.get("https://dsportalapp.herokuapp.com/register");
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    }
 	
 public void enterusrname(String uname) throws InterruptedException
 	{
 		driver.findElement(username).clear();
-	
-		driver.findElement(username).sendKeys(uname);	
-		Thread.sleep(2000);
+	    driver.findElement(username).sendKeys(uname);	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); 
 		
 	}
 	public void clickregisterbtn()
@@ -56,7 +53,6 @@ public void enterusrname(String uname) throws InterruptedException
 	{
 		WebElement activeElement = driver.switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
-		//System.out.println("Actual message appeared on screen: " + messageStr);
 		return(messageStr);
 		
 	}
@@ -120,7 +116,7 @@ public void enterusrname(String uname) throws InterruptedException
 		
 	}
 	
-	public void clickregiserLink()
+	public void clickregisterLink()
 	{
 		driver.findElement(registerlink).click();
 	}
@@ -156,7 +152,6 @@ public void enterusrname(String uname) throws InterruptedException
 	String getsuccessmsg=driver.findElement(successmsg).getText();
 	return(getsuccessmsg);
 	}
-	
 	
 
 }

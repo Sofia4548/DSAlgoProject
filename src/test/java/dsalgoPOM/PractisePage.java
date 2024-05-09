@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 public class PractisePage {
 	private WebDriver driver;
@@ -62,10 +63,36 @@ public class PractisePage {
 		//driver.findElement(editor).clear();
 		driver.findElement(editor).sendKeys(Keys.CONTROL + "a");
 		driver.findElement(editor).sendKeys(Keys.DELETE);
+		
+		int indentationRow = 0; // Define the number of rows to move up for indentation
+	    int indentationSpace = 200; // Define the number of spaces for indentation
+	    boolean flag = true; // Define whether to perform a specific action at the beginning of the text area
+	    indentCode();
+
+		
 		driver.findElement(editor).sendKeys(code);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		//driver.findElement(runBtn).click();
 	}
+	
+	private void indentCode() {
+        // Define the number of rows to move up for indentation
+        int indentationRow = 0;
+        // Define the number of spaces for indentation
+        int indentationSpace = 4;
+        // Define whether to perform a specific action at the beginning of the text area
+        boolean flag = true;
+        
+        Actions action = new Actions(driver);
+        for (int i = 1; i <= indentationRow; i++) {
+            action.sendKeys(Keys.ARROW_UP).keyUp(Keys.SHIFT).perform();
+            for (int j = 1; j <= indentationSpace; j++) {
+                if (i == 1 && flag) action.sendKeys(Keys.BACK_SPACE).perform();
+                else action.sendKeys(Keys.DELETE).perform();
+            }
+        }
+	}
+	
 	
 	public String getOutput() {
 		return driver.findElement(output).getText();

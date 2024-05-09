@@ -20,6 +20,7 @@ import io.cucumber.java.en.When;
 public class Practise_stepdefinition {
 	PractisePage practisePage = new PractisePage(DriverFactory.getDriver());
 	private String outputdata;
+	String file = System.getProperty("user.dir") + "\\src\\test\\resources\\Exceldata\\TestExcelData2.xlsx";
 
 	@When("the user clicks the link from the array page under Arrays in Python")
 	public void the_user_clicks_the_link_from_the_array_page_under_arrays_in_python() {
@@ -64,61 +65,60 @@ public class Practise_stepdefinition {
 	public void the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_array_practise_page_from_given_sheetname_and_rowno(
 			String sheetname, Integer rowno) throws InvalidFormatException, IOException, InterruptedException {
 		TestDataReadingWriting reader = new TestDataReadingWriting();
-		List<Map<String, String>> gettextdata = reader.getData(
-				"C:\\Users\\sofia\\eclipse-workspace\\DSAlgoProject\\src\\test\\resources\\ExcelData\\TestExcelData2.xlsx",
-				sheetname);
+		List<Map<String, String>> gettextdata = reader.getData(file, sheetname);
 
 		String inputdata = gettextdata.get(rowno).get("Inputpythoncode");
 		outputdata = gettextdata.get(rowno).get("ExpectedOutput");
-		System.out.println("Input data is" + inputdata);
-		System.out.println("Output data is" + outputdata);
+		System.out.println(inputdata);
+		System.out.println(outputdata);
+
 		practisePage.enterCode(inputdata);
 		Thread.sleep(2000);
 	}
 
 	@Then("the user should be able to see the output on the console for the valid  input data for the array practise page")
 	public void the_user_should_be_able_to_see_the_output_on_the_console_for_the_valid_input_data_for_the_array_practise_page() {
-		String printoutput=practisePage.getOutput();
-		assertEquals(printoutput,outputdata);
+		String printoutput = practisePage.getOutput();
+		assertEquals(printoutput, outputdata);
 		System.out.println(printoutput);
 	}
 
 	@Then("user navigate back and clicks the signout link in the array practise page")
 	public void user_navigate_back_and_clicks_the_signout_link_in_the_array_practise_page() {
-		String title=practisePage.NavigateBack();
-	    System.out.println(title);
-	    practisePage.LogOut();
+		String title = practisePage.NavigateBack();
+		System.out.println(title);
+		practisePage.LogOut();
 	}
 
 	@Then("the user is logged out of the array practise and the dsalgoportal and the {string}  message is displayed")
 	public void the_user_is_logged_out_of_the_array_practise_and_the_dsalgoportal_and_the_message_is_displayed(
 			String actualmsg) {
-		String logoutmsg=practisePage.ReadLogoutmsg();
-		assertEquals(logoutmsg,actualmsg);
+		String logoutmsg = practisePage.ReadLogoutmsg();
+		assertEquals(logoutmsg, actualmsg);
 		LoggerLoad.info(logoutmsg);
 	}
 
 	@When("the user clicks on run button after providing the invalid python code in array practise page from given sheetname {string} and rowno {int}")
 	public void the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_array_practise_page_from_given_sheetname_and_rowno(
 			String sheetname, Integer rowno) throws InvalidFormatException, IOException, InterruptedException {
-		TestDataReadingWriting reader= new TestDataReadingWriting();
-		 List<Map<String, String>>gettextdata=reader.getData("C:\\Users\\sofia\\eclipse-workspace\\DSAlgoProject\\src\\test\\resources\\ExcelData\\TestExcelData2.xlsx",sheetname);
-		 
-		String inputdata= gettextdata.get(rowno).get("Inputpythoncode");
-		outputdata=gettextdata.get(rowno).get("ExpectedOutput");
+		TestDataReadingWriting reader = new TestDataReadingWriting();
+		List<Map<String, String>> gettextdata = reader.getData(file, sheetname);
+
+		String inputdata = gettextdata.get(rowno).get("Inputpythoncode");
+		outputdata = gettextdata.get(rowno).get("ExpectedOutput");
 		System.out.println(inputdata);
 		System.out.println(outputdata);
 		practisePage.enterCode(inputdata);
-		Thread.sleep(2000); 
+		Thread.sleep(2000);
 	}
 
 	@Then("the user should be able to see a alertbox syntaxerror for the array practise page")
 	public void the_user_should_be_able_to_see_a_alertbox_syntaxerror_for_the_array_practise_page() {
-		String alertmsg=practisePage.getAlertMsg();
+		String alertmsg = practisePage.getAlertMsg();
 
-		assertEquals(alertmsg,outputdata);
+		assertEquals(alertmsg, outputdata);
 		System.out.println(alertmsg);
-		System.out.println(outputdata); 
+		System.out.println(outputdata);
 	}
 
 }

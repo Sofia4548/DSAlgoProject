@@ -1,4 +1,5 @@
 package dsalgo_stepdefinition;
+
 import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
@@ -19,6 +20,7 @@ import io.cucumber.java.en.When;
 public class DataStructure_stepdefinition {
 	DataStructurePage dataStructurePage = new DataStructurePage(DriverFactory.getDriver());
 	String outputdata;
+	String file = System.getProperty("user.dir") + "\\src\\test\\resources\\Exceldata\\TestExcelData1.xlsx";
 
 	@Given("The user is on the datastructures page")
 	public void the_user_is_on_the_datastructures_page() {
@@ -54,10 +56,7 @@ public class DataStructure_stepdefinition {
 	public void the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_datastructures_page_from_given_sheetname_and_rowno(
 			String sheetname, Integer rowno) throws InvalidFormatException, IOException, InterruptedException {
 		TestDataReadingWriting reader = new TestDataReadingWriting();
-		List<Map<String, String>> gettextdata = reader.getData(
-				"C:\\Users\\sofia\\eclipse-workspace\\DSAlgoProject\\src\\test\\resources\\ExcelData\\TestExcelData1.xlsx",
-				sheetname);
-
+		List<Map<String, String>> gettextdata = reader.getData(file, sheetname);
 		String inputdata = gettextdata.get(rowno).get("Inputpythoncode");
 		outputdata = gettextdata.get(rowno).get("ExpectedOutput");
 		System.out.println(inputdata);
@@ -92,9 +91,7 @@ public class DataStructure_stepdefinition {
 	public void the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_datastructures_page_from_given_sheetname_and_rowno(
 			String sheetname, Integer rowno) throws InvalidFormatException, IOException, InterruptedException {
 		TestDataReadingWriting reader = new TestDataReadingWriting();
-		List<Map<String, String>> gettextdata = reader.getData(
-				"C:\\Users\\sofia\\eclipse-workspace\\DSAlgoProject\\src\\test\\resources\\ExcelData\\TestExcelData1.xlsx",
-				sheetname);
+		List<Map<String, String>> gettextdata = reader.getData(file, sheetname);
 
 		String inputdata = gettextdata.get(rowno).get("Inputpythoncode");
 		outputdata = gettextdata.get(rowno).get("ExpectedOutput");
