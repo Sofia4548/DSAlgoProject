@@ -10,6 +10,7 @@ public class OptionManager {
 public ChromeOptions getChromeOptions()
 {
 	ChromeOptions options = new ChromeOptions();
+	//options.addArguments("--headless");
 	options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 	
 	return options;
