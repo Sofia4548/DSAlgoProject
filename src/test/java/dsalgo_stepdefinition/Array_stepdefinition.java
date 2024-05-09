@@ -21,6 +21,7 @@ public class Array_stepdefinition {
 	ArrayPage arrayPage = new ArrayPage(DriverFactory.getDriver());
 	private String outputdata;
 	private String outputdata1;
+	String file = System.getProperty("user.dir") + "\\src\\test\\resources\\Exceldata\\TestExcelData1.xlsx";
 	@Given("The user is on the array page")
 	public void the_user_is_on_the_array_page() {
 		arrayPage.arrayHomePage();
@@ -59,7 +60,7 @@ public class Array_stepdefinition {
 	@When("the user clicks on run button after providing the valid python code in array page from given sheetname {string} and rowno {int}")
 	public void the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_array_page_from_given_sheetname_and_rowno(String sheetname, Integer rowno) throws InterruptedException, InvalidFormatException, IOException {
 		TestDataReadingWriting reader= new TestDataReadingWriting();
-		 List<Map<String, String>>gettextdata=reader.getData("C:\\Users\\sofia\\eclipse-workspace\\DSAlgoProject\\src\\test\\resources\\ExcelData\\TestExcelData1.xlsx",sheetname);
+		 List<Map<String, String>>gettextdata=reader.getData(file,sheetname);
 		 
 		String inputdata= gettextdata.get(rowno).get("Inputpythoncode");
 		outputdata=gettextdata.get(rowno).get("ExpectedOutput");
@@ -94,7 +95,7 @@ public class Array_stepdefinition {
 	@When("the user clicks on run button after providing the invalid python code in array page from given sheetname {string} and rowno {int}")
 	public void the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_array_page_from_given_sheetname_and_rowno(String sheetname, Integer rowno) throws InvalidFormatException, IOException, InterruptedException {
 		TestDataReadingWriting reader= new TestDataReadingWriting();
-		 List<Map<String, String>>gettextdata=reader.getData("C:\\Users\\sofia\\eclipse-workspace\\DSAlgoProject\\src\\test\\resources\\ExcelData\\TestExcelData1.xlsx",sheetname);
+		 List<Map<String, String>>gettextdata=reader.getData(file,sheetname);
 		 
 		String inputdata= gettextdata.get(rowno).get("Inputpythoncode");
 		outputdata=gettextdata.get(rowno).get("ExpectedOutput");
