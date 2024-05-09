@@ -6,8 +6,8 @@
       <class name="dsAlgoRunner.Runner_Test">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 3"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- dsAlgoRunner.Runner_Test -->
     </classes>

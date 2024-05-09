@@ -1,75 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-26T11:33:23 EDT" name="Default suite" finished-at="2024-04-26T11:34:12 EDT" duration-ms="49922">
+  <suite started-at="2024-05-09T10:28:17 EDT" name="Default suite" finished-at="2024-05-09T10:29:13 EDT" duration-ms="56041">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-26T11:33:23 EDT" name="Default test" finished-at="2024-04-26T11:34:12 EDT" duration-ms="49922">
+    <test started-at="2024-05-09T10:28:17 EDT" name="Default test" finished-at="2024-05-09T10:29:13 EDT" duration-ms="56041">
       <class name="dsAlgoRunner.Runner_Test">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="setUpClass" finished-at="2024-04-26T11:33:23 EDT" duration-ms="710" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:17 EDT" name="setUpClass" finished-at="2024-05-09T10:28:18 EDT" duration-ms="721" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3add81c4]]>
+                <![CDATA[org.testng.TestRunner@403132fc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-26T11:33:30 EDT" duration-ms="6850" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:45 EDT" duration-ms="26767" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["F4S1 On DS Algo Introduction Page, test that user should be able to click Sign in link"]]>
+                <![CDATA["The user clicks the Linked List topic links and runs the  invalid python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["F4 As a user, I am able to open the browser and Sign In in dsalgo portal"]]>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-26T11:33:32 EDT" duration-ms="8593" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:40 EDT" duration-ms="22201" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["F4S2 DS Algo Sign in Page, test that user Sign In successfully"]]>
+                <![CDATA["The user clicks the Linked List topic links and runs the  python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["F4 As a user, I am able to open the browser and Sign In in dsalgo portal"]]>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-26T11:33:32 EDT" duration-ms="8763" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["F4S2 DS Algo Sign in Page, test that user Sign In successfully"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F4 As a user, I am able to open the browser and Sign In in dsalgo portal"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:33:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-26T11:34:12 EDT" duration-ms="49098" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:29:08 EDT" duration-ms="50094" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +69,391 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-04-26T11:34:12 EDT" name="tearDownClass" finished-at="2024-04-26T11:34:12 EDT" duration-ms="40" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:40 EDT" duration-ms="22191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:40 EDT" duration-ms="22191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:40 EDT" duration-ms="22191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:40 EDT" duration-ms="22218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:40 EDT" duration-ms="22190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:40 EDT" duration-ms="22190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:43 EDT" duration-ms="25310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is opening the DS_Algo website and navigates the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a User I am able to open the website and have access to the home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:58 EDT" duration-ms="17692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:58 EDT" duration-ms="17493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:57 EDT" duration-ms="16673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:57 EDT" duration-ms="16767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:58 EDT" duration-ms="17940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:58 EDT" duration-ms="17270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Linked List topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F2 As a user I want to navigate to the Linked List home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:52 EDT" duration-ms="11647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Queue topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 As a Signedin User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:55 EDT" duration-ms="11184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Queue topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 As a Signedin User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:45 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:28:56 EDT" duration-ms="11216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Queue topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 As a Signedin User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:29:03 EDT" duration-ms="10674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Queue topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 As a Signedin User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:29:10 EDT" duration-ms="15116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Queue topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 As a Signedin User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:29:11 EDT" duration-ms="15164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Queue topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 As a Signedin User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:57 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:29:13 EDT" duration-ms="16170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Queue topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 As a Signedin User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:57 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:29:13 EDT" duration-ms="16279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Queue topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 As a Signedin User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:29:02 EDT" duration-ms="4155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["F4S1 On DS Algo Introduction Page, test that user should be able to click Sign in link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F4 As a user, I am able to open the browser and Sign In in dsalgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:29:03 EDT" duration-ms="5600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["F4S2 DS Algo Sign in Page, test that user Sign In successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F4 As a user, I am able to open the browser and Sign In in dsalgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:28:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T10:29:04 EDT" duration-ms="5862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["F4S2 DS Algo Sign in Page, test that user Sign In successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F4 As a user, I am able to open the browser and Sign In in dsalgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@79079097]" started-at="2024-05-09T10:29:13 EDT" name="tearDownClass" finished-at="2024-05-09T10:29:13 EDT" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
