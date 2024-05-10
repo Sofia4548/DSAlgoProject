@@ -314,3 +314,224 @@
 [INFO ] 2024-05-09 12:06:33.272 [main] LoggerLoad - Logged out successfully
 [INFO ] 2024-05-09 12:06:52.186 [main] LoggerLoad - Logged out successfully
 [INFO ] 2024-05-09 12:07:13.535 [main] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:24.965 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-09 13:15:25.915 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-09 13:15:27.044 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-09 13:15:27.911 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-09 13:15:28.528 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-09 13:15:29.398 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-09 13:15:29.482 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-09 13:15:29.532 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-09 13:15:31.466 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:31.754 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:32.074 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:32.395 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:33.471 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:34.242 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:34.373 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:34.407 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:47.824 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-09 13:15:49.528 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-09 13:15:52.745 [TestNG-PoolService-8] LoggerLoad - User is on the RegistrationPage
+[INFO ] 2024-05-09 13:15:53.882 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:55.538 [TestNG-PoolService-8] LoggerLoad - Please fill out this field.
+[INFO ] 2024-05-09 13:15:55.664 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:15:59.719 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-09 13:15:59.771 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:16:03.364 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-09 13:16:03.387 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:16:05.029 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:16:07.362 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:16:07.413 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-09 13:16:09.307 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:16:10.811 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-09 13:16:21.781 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:16:22.700 [TestNG-PoolService-10] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:16:56.791 [TestNG-PoolService-10] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:16:56.791 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:17:24.841 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-09 13:17:26.317 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-09 13:17:26.974 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-09 13:17:27.153 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:17:28.412 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:17:30.181 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:17:33.511 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:17:33.544 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:17:38.182 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:17:39.238 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:17:44.138 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:18:12.923 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-09 13:18:13.141 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-09 13:18:13.491 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-09 13:18:13.688 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:18:14.947 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:18:20.123 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-09 13:18:21.467 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:18:29.000 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:18:47.750 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-09 13:18:52.454 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-09 13:18:52.806 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-09 13:18:52.970 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-09 13:18:53.797 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-09 13:18:54.336 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-09 13:18:54.513 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-09 13:19:08.095 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-09 13:19:09.388 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-09 13:19:31.613 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-09 13:19:37.708 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:19:37.708 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:19:59.419 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-09 13:20:09.221 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-09 13:20:09.227 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-09 13:20:09.238 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-09 13:20:09.560 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-09 13:20:09.837 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-09 13:20:09.842 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-09 13:20:10.157 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:20:13.672 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:20:14.408 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:20:14.959 [TestNG-PoolService-10] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:20:14.959 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:20:15.288 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:20:15.298 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:20:21.001 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-09 13:20:21.338 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-09 13:20:22.219 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-09 13:20:23.920 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:20:23.924 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-09 13:20:24.010 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-10 10:57:20.453 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:20.453 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:20.453 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:20.454 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:20.454 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:20.453 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.067 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.091 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.126 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.053 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.168 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.175 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.408 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.475 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.503 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.571 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.621 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:57:21.769 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:26.941 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:26.941 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:26.941 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:26.941 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:26.941 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:26.941 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.288 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.344 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.409 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.446 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.449 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.490 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.667 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.727 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.756 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.763 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.894 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 10:59:27.952 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:04:43.871 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:04:43.871 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:04:43.871 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:04:43.871 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:04:43.871 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:04:43.871 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:12.621 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-10 11:05:12.713 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-10 11:05:12.713 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-10 11:05:12.873 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:12.882 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:12.919 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:12.947 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:12.973 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:13.021 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:29.386 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-10 11:05:30.115 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-10 11:05:30.695 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-10 11:05:30.771 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:30.771 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:30.785 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:30.849 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:30.878 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:05:30.885 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:48.747 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:48.748 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:48.747 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:48.747 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:48.747 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:48.748 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.126 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.139 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.171 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.211 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.249 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.254 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.421 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.461 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.557 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.601 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.607 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:08:49.637 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:12.391 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:12.392 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:12.392 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:12.392 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:12.392 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:12.392 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.024 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.036 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.055 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.158 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.271 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.276 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.428 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.479 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.565 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.613 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.638 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:13.646 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.281 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.281 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.281 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.281 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.281 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.281 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.832 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.838 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.854 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.922 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.929 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:47.960 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:48.106 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:48.108 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:48.236 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:48.258 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:48.280 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:11:48.291 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.344 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.344 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.344 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.344 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.344 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.344 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.759 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.764 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.787 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.862 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.899 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:58.925 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:59.092 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:59.115 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:59.229 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:59.292 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:59.344 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:12:59.380 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2024-05-10 11:52:24.544 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-10 11:52:24.544 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-10 11:52:24.588 [TestNG-PoolService-6] LoggerLoad - Logged out successfully

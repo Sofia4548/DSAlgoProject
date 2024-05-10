@@ -1,9 +1,11 @@
 package dsAlgoRunner;
 
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 
-
+import dsutilities.ConfigurationReader;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
@@ -22,4 +24,13 @@ public class Runner_Test extends AbstractTestNGCucumberTests{
 				
 		return super.scenarios();	
     }
+//	@BeforeTest
+//	@Parameters("browser")
+//
+//	public void defineBrowser(String browser) throws Throwable {
+//
+//		ConfigurationReader.setBrowserType(browser);
+//
+//
+//	}
 }

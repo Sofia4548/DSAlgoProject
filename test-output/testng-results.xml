@@ -1,328 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-09T11:11:51 EDT" name="Default suite" finished-at="2024-05-09T11:12:20 EDT" duration-ms="28530">
+  <suite started-at="2024-05-10T11:52:03 EDT" name="Default suite" finished-at="2024-05-10T11:52:24 EDT" duration-ms="21439">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@4b2bac3f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-05-09T11:11:51 EDT" name="Default test" finished-at="2024-05-09T11:12:20 EDT" duration-ms="28530">
+    <test started-at="2024-05-10T11:52:03 EDT" name="Default test" finished-at="2024-05-10T11:52:24 EDT" duration-ms="21439">
       <class name="dsAlgoRunner.Runner_Test">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:51 EDT" name="setUpClass" finished-at="2024-05-09T11:11:52 EDT" duration-ms="779" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@4b2bac3f]" started-at="2024-05-10T11:52:03 EDT" name="setUpClass" finished-at="2024-05-10T11:52:03 EDT" duration-ms="782" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@15b986cd]]>
+                <![CDATA[org.testng.TestRunner@6c6357f9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:08 EDT" duration-ms="15611" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@4b2bac3f]" started-at="2024-05-10T11:52:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-10T11:52:24 EDT" duration-ms="20260" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["The user clicks the Array topic links and runs the  invalid python code"]]>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["F1 As a user I want to navigate to the Array home page"]]>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:07 EDT" duration-ms="15476" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@4b2bac3f]" started-at="2024-05-10T11:52:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-10T11:52:24 EDT" duration-ms="20536" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["The user clicks the Datastructures topic links and runs the  invalid python code"]]>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["F0 As a user I want to navigate to the Datastructures home page"]]>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:08 EDT" duration-ms="15614" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@4b2bac3f]" started-at="2024-05-10T11:52:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-10T11:52:24 EDT" duration-ms="20037" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["The user clicks the Array topic links and runs the  python code"]]>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["F1 As a user I want to navigate to the Array home page"]]>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:07 EDT" duration-ms="15358" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@4b2bac3f]" started-at="2024-05-10T11:52:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-10T11:52:24 EDT" duration-ms="20260" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["The user clicks the Array topic links and runs the  invalid python code"]]>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["F1 As a user I want to navigate to the Array home page"]]>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:08 EDT" duration-ms="15618" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@4b2bac3f]" started-at="2024-05-10T11:52:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-10T11:52:24 EDT" duration-ms="20571" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["The user clicks the Array topic links and runs the  python code"]]>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["F1 As a user I want to navigate to the Array home page"]]>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:08 EDT" duration-ms="15611" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@4b2bac3f]" started-at="2024-05-10T11:52:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-10T11:52:24 EDT" duration-ms="20532" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["The user clicks the Array topic links and runs the  invalid python code"]]>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["F1 As a user I want to navigate to the Array home page"]]>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:08 EDT" duration-ms="15662" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Datastructures topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F0 As a user I want to navigate to the Datastructures home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:08 EDT" duration-ms="15640" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Array topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F1 As a user I want to navigate to the Array home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:08 EDT" duration-ms="15640" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Array topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F1 As a user I want to navigate to the Array home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:11:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:08 EDT" duration-ms="15599" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Array topic links and runs the  invalid python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F1 As a user I want to navigate to the Array home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:12:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:13 EDT" duration-ms="5191" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Registration page validation"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F2 User creates new account in the registration page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.junit.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<Please fill [out] this field.> but was:<Please fill [in] this field.>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.junit.ComparisonFailure: expected:<Please fill [out] this field.> but was:<Please fill [in] this field.>
-at org.junit.Assert.assertEquals(Assert.java:117)
-at org.junit.Assert.assertEquals(Assert.java:146)
-at dsalgo_stepdefinition.DsalgoRegistrationpageStepDefinitions.the_message_is_displayed_below_the_password_textbox_to_the_user_as(DsalgoRegistrationpageStepDefinitions.java:39)
-at ✽.The message is displayed below the password textbox to the user as  "Please fill out this field."(file:///C:/Users/sofia/eclipse-workspace/DSAlgoProject/src/test/resources/Features/DsalgoRegistrationpage.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.junit.ComparisonFailure -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:12:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:18 EDT" duration-ms="10310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Graph topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F6 As a user I want to navigate to the Graph home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:12:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:19 EDT" duration-ms="11024" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Graph topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F6 As a user I want to navigate to the Graph home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:12:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:18 EDT" duration-ms="10554" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Graph topic links and runs the  invalid python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F6 As a user I want to navigate to the Graph home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:12:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:18 EDT" duration-ms="10610" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Graph topic links and runs the  invalid python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F6 As a user I want to navigate to the Graph home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:12:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:20 EDT" duration-ms="12029" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Array Practice topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["P1 As a user I want to navigate to the Array Practice home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:12:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:20 EDT" duration-ms="11933" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Array Practice topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["P1 As a user I want to navigate to the Array Practice home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:12:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-09T11:12:20 EDT" duration-ms="11997" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Array Practice topic links and runs the  invalid python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["P1 As a user I want to navigate to the Array Practice home page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@1750fbeb]" started-at="2024-05-09T11:12:20 EDT" name="tearDownClass" finished-at="2024-05-09T11:12:20 EDT" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@4b2bac3f]" started-at="2024-05-10T11:52:24 EDT" name="tearDownClass" finished-at="2024-05-10T11:52:24 EDT" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

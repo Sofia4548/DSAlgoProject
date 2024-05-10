@@ -21,17 +21,19 @@ public class DriverFactory {
 	{
 		System.out.println(browser);
 		if(browser.equals("google chrome"))
-		{			
+		{		
+			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver(optionManager.getChromeOptions());
 			tldriver.set(driver);
 		}
 		if(browser.equals("firefox"))
 		{
+			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver(optionManager.getFireFoxOptions());
 			tldriver.set(driver);
 		}
 		if(browser.equals("edgeBrowser"))
-		{
+		{	WebDriverManager.edgedriver().setup();
 			driver=new EdgeDriver(optionManager.getEdgeOptions());
 			tldriver.set(driver);
 		}

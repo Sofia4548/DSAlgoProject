@@ -19,13 +19,14 @@ public FirefoxOptions getFireFoxOptions()
 {
 	FirefoxOptions options = new FirefoxOptions();
 	options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-	
+	//options.addArguments("--headless");
 	return options;
 }
 public EdgeOptions getEdgeOptions()
 {
 	EdgeOptions options = new EdgeOptions();
 	options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+	//options.addArguments("--headless");
 	return options;
 }
 }
