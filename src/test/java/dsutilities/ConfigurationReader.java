@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigurationReader {
+//	private static String browserType=null;
+	
 	public static String getProperty(String moduleName,String propertyKey) throws FileNotFoundException, IOException
 	{
 		Properties config=new Properties();
@@ -22,5 +24,10 @@ public class ConfigurationReader {
 		
 		return "Invaild PropertyKey";
 	}
+
+	
+
+	
+	
 
 }

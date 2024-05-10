@@ -8,7 +8,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-
 import dsutilities.ConfigurationReader;
 import dsutilities.DriverFactory;
 import io.cucumber.java.After;
@@ -25,12 +24,13 @@ public class DsHooks {
 		driverfactory=new DriverFactory();
 		String browserName=ConfigurationReader.getProperty("config","chromeBrowser");
 		driver=driverfactory.inint(browserName);
+		
 	}
 	
 	@After(order=0)
 	public void quitbrowser()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 	@After(order=1)
 	public void teardown(Scenario scenario)
@@ -42,5 +42,14 @@ public class DsHooks {
 			scenario.attach(sourcepath,"image/png", screenShotName);
 		}
 	}
+
+	
+	///newwwwww
+
+
+
+
+	
+
 
 }
