@@ -1,215 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-11T11:38:47 EDT" name="Default suite" finished-at="2024-05-11T11:38:49 EDT" duration-ms="1469">
+  <suite started-at="2024-05-11T12:07:09 EDT" name="Test Suite" finished-at="2024-05-11T12:09:07 EDT" duration-ms="117718">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-05-11T11:38:47 EDT" name="Default test" finished-at="2024-05-11T11:38:49 EDT" duration-ms="1469">
+    <test started-at="2024-05-11T12:07:09 EDT" name="TestChrome" finished-at="2024-05-11T12:07:36 EDT" duration-ms="26843">
       <class name="dsAlgoRunner.Runner_Test">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" started-at="2024-05-11T11:38:47 EDT" name="defineBrowser" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1715441927691" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" started-at="2024-05-11T11:38:47 EDT" name="setUpClass" finished-at="2024-05-11T11:38:48 EDT" duration-ms="1250" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" started-at="2024-05-11T12:07:09 EDT" name="defineBrowser" finished-at="2024-05-11T12:07:09 EDT" duration-ms="25" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6bab2585]]>
+                <![CDATA[google chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" started-at="2024-05-11T12:07:09 EDT" name="setUpClass" finished-at="2024-05-11T12:07:10 EDT" duration-ms="1101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bffddff]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" started-at="2024-05-11T11:38:49 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T11:38:49 EDT" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" started-at="2024-05-11T11:38:49 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T11:38:49 EDT" duration-ms="1" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" started-at="2024-05-11T11:38:49 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T11:38:49 EDT" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" started-at="2024-05-11T11:38:49 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T11:38:49 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" started-at="2024-05-11T12:07:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:07:36 EDT" duration-ms="25465" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -222,44 +47,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" started-at="2024-05-11T11:38:49 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T11:38:49 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" started-at="2024-05-11T12:07:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:07:36 EDT" duration-ms="25583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -272,44 +63,42 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" started-at="2024-05-11T11:38:49 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T11:38:49 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" started-at="2024-05-11T12:07:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:07:36 EDT" duration-ms="25499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" started-at="2024-05-11T12:07:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:07:36 EDT" duration-ms="25313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" started-at="2024-05-11T12:07:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:07:36 EDT" duration-ms="25615" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -322,48 +111,284 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@1ff4931d]" started-at="2024-05-11T11:38:49 EDT" name="tearDownClass" finished-at="2024-05-11T11:38:49 EDT" duration-ms="46" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" started-at="2024-05-11T12:07:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:07:36 EDT" duration-ms="25339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@6ad82709]" started-at="2024-05-11T12:07:36 EDT" name="tearDownClass" finished-at="2024-05-11T12:07:36 EDT" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- dsAlgoRunner.Runner_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestChrome -->
+    <test started-at="2024-05-11T12:07:36 EDT" name="TestFirefox" finished-at="2024-05-11T12:08:43 EDT" duration-ms="66929">
+      <class name="dsAlgoRunner.Runner_Test">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" started-at="2024-05-11T12:07:36 EDT" name="defineBrowser" finished-at="2024-05-11T12:07:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" started-at="2024-05-11T12:07:36 EDT" name="setUpClass" finished-at="2024-05-11T12:07:36 EDT" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@66971f6b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" started-at="2024-05-11T12:07:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:08:42 EDT" duration-ms="66480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" started-at="2024-05-11T12:07:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:08:41 EDT" duration-ms="64841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" started-at="2024-05-11T12:07:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:08:43 EDT" duration-ms="66851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" started-at="2024-05-11T12:07:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:08:42 EDT" duration-ms="66282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" started-at="2024-05-11T12:07:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:08:41 EDT" duration-ms="65415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" started-at="2024-05-11T12:07:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:08:38 EDT" duration-ms="61784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@f79e]" started-at="2024-05-11T12:08:43 EDT" name="tearDownClass" finished-at="2024-05-11T12:08:43 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- dsAlgoRunner.Runner_Test -->
+    </test> <!-- TestFirefox -->
+    <test started-at="2024-05-11T12:08:43 EDT" name="edgeBrowser" finished-at="2024-05-11T12:09:07 EDT" duration-ms="23898">
+      <class name="dsAlgoRunner.Runner_Test">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" started-at="2024-05-11T12:08:43 EDT" name="defineBrowser" finished-at="2024-05-11T12:08:43 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edgeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" started-at="2024-05-11T12:08:43 EDT" name="setUpClass" finished-at="2024-05-11T12:08:43 EDT" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50687efb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" started-at="2024-05-11T12:08:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:09:06 EDT" duration-ms="23256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" started-at="2024-05-11T12:08:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:09:06 EDT" duration-ms="22917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" started-at="2024-05-11T12:08:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:09:05 EDT" duration-ms="22285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" started-at="2024-05-11T12:08:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:09:07 EDT" duration-ms="23835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" started-at="2024-05-11T12:08:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:09:06 EDT" duration-ms="23288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" started-at="2024-05-11T12:08:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T12:09:06 EDT" duration-ms="22903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@1f59a598]" started-at="2024-05-11T12:09:07 EDT" name="tearDownClass" finished-at="2024-05-11T12:09:07 EDT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- dsAlgoRunner.Runner_Test -->
+    </test> <!-- edgeBrowser -->
+    <test started-at="2024-05-11T12:09:07 EDT" name="Test" finished-at="2024-05-11T12:09:07 EDT" duration-ms="1">
+    </test> <!-- Test -->
+  </suite> <!-- Test Suite -->
 </testng-results>

@@ -8,185 +8,35 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">6</td><td class="num">0</td><td class="num">0</td><td class="num">1,469</td><td></td><td></td></tr>
+<tr><th colspan="8">Test Suite</th></tr>
+<tr><td><a href="#t0">TestChrome</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">26,843</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">TestFirefox</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">66,929</td><td></td><td></td></tr>
+<tr><td><a href="#t2">edgeBrowser</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,898</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">18</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">117,671</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">dsAlgoRunner.Runner_Test</td><td><a href="#m0">defineBrowser</a></td><td rowspan="1">1715441927691</td><td rowspan="1">-1715441927691</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="6">dsAlgoRunner.Runner_Test</td><td><a href="#m1">runScenario</a></td><td rowspan="6">1715441929025</td><td rowspan="6">0</td></tr><tr class="skippedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="skippedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="skippedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="skippedeven"><td><a href="#m5">runScenario</a></td></tr><tr class="skippedeven"><td><a href="#m6">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestChrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">dsAlgoRunner.Runner_Test</td><td><a href="#m0">runScenario</a></td><td rowspan="6">1715443630760</td><td rowspan="6">25465</td></tr><tr class="passedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m5">runScenario</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">TestFirefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">dsAlgoRunner.Runner_Test</td><td><a href="#m6">runScenario</a></td><td rowspan="6">1715443656549</td><td rowspan="6">61784</td></tr><tr class="passedeven"><td><a href="#m7">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m8">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m9">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m10">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m11">runScenario</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">edgeBrowser &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">dsAlgoRunner.Runner_Test</td><td><a href="#m12">runScenario</a></td><td rowspan="6">1715443723426</td><td rowspan="6">23288</td></tr><tr class="passedeven"><td><a href="#m13">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m14">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m15">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m16">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m17">runScenario</a></td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4" class="invisible"/></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">dsAlgoRunner.Runner_Test#defineBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-	at org.testng.TestRunner.run(TestRunner.java:612)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-	at org.testng.TestRunner.run(TestRunner.java:612)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-	at org.testng.TestRunner.run(TestRunner.java:612)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-	at org.testng.TestRunner.run(TestRunner.java:612)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-	at org.testng.TestRunner.run(TestRunner.java:612)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-	at org.testng.TestRunner.run(TestRunner.java:612)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeTest on method defineBrowser but has not been marked @Optional or defined
-in C:\Users\gayathri\AppData\Local\Temp\testng-eclipse--1305002614\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:650)
-	at org.testng.TestRunner.run(TestRunner.java:612)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-</body>
+<h2>TestChrome</h2><h3 id="m0">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestFirefox</h2><h3 id="m6">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>edgeBrowser</h2><h3 id="m12">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">dsAlgoRunner.Runner_Test#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The user clicks the Stack topic links and runs the  invalid python code&quot;</td><td>&quot;F3 The signedin user selects the  stack datastructure module and runs the python code&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2></body>
 </html>
