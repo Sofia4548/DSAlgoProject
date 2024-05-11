@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>edgeBrowser</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>71/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 10 11:47:22 EDT 2024</td>
+<td>Started on:</td><td>Sat May 11 11:29:37 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (34 ms)</td>
+<tr><td>Total time:</td><td>282 seconds (282220 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,123 +76,359 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsAlgoRunner.Runner_Test.setUpClass()'><b>setUpClass</b><br>Test class: dsAlgoRunner.Runner_Test<br>Parameters: org.testng.TestRunner@6273c5a4</td>
-<td><div><pre>io.cucumber.java.InvalidMethodSignatureException: A method annotated with Before, After, BeforeStep or AfterStep must have one of these signatures:
- * public void before_or_after(io.cucumber.java.Scenario scenario)
- * public void before_or_after()
-at dsalgoHooks.DsHooks.launchbrowser(java.lang.String)
-
-
-	at io.cucumber.java.InvalidMethodSignatureException$InvalidMethodSignatureExceptionBuilder.build(InvalidMethodSignatureException.java:52)
-	at io.cucumber.java.JavaHookDefinition.createInvalidSignatureException(JavaHookDefinition.java:52)
-	at io.cucumber.java.JavaHookDefinition.requireValidMethod(JavaHookDefinition.java:33)
-	at io.cucumber.java.JavaHookDefinition.&lt;init&gt;(JavaHookDefinition.java:19)
-	at io.cucumber.java.GlueAdaptor.addDefinition(GlueAdaptor.java:27)
-	at io.cucumber.java.JavaBackend.lambda$loadGlue$1(JavaBackend.java:43)
-	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:78)
-	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:69)
-	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:33)
-	at io.cucumber.java.JavaBackend.lambda$loadGlue$2(JavaBackend.java:41)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
-	at java.base/java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:174)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
-	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at io.cucumber.java.JavaBackend.loadGlue(JavaBackend.java:41)
-	at io.cucumber.core.runner.Runner.&lt;init&gt;(Runner.java:56)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.createRunner(ThreadLocalRunnerSupplier.java:47)
-	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:357)
-	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:225)
-	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:194)
-	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.get(ThreadLocalRunnerSupplier.java:40)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:35)
-	at io.cucumber.core.runtime.CucumberExecutionContext.getRunner(CucumberExecutionContext.java:140)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runBeforeAllHooks(CucumberExecutionContext.java:92)
-	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:124)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace144445623", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace144445623'><pre>io.cucumber.java.InvalidMethodSignatureException: A method annotated with Before, After, BeforeStep or AfterStep must have one of these signatures:
- * public void before_or_after(io.cucumber.java.Scenario scenario)
- * public void before_or_after()
-at dsalgoHooks.DsHooks.launchbrowser(java.lang.String)
-
-
-	at io.cucumber.java.InvalidMethodSignatureException$InvalidMethodSignatureExceptionBuilder.build(InvalidMethodSignatureException.java:52)
-	at io.cucumber.java.JavaHookDefinition.createInvalidSignatureException(JavaHookDefinition.java:52)
-	at io.cucumber.java.JavaHookDefinition.requireValidMethod(JavaHookDefinition.java:33)
-	at io.cucumber.java.JavaHookDefinition.&lt;init&gt;(JavaHookDefinition.java:19)
-	at io.cucumber.java.GlueAdaptor.addDefinition(GlueAdaptor.java:27)
-	at io.cucumber.java.JavaBackend.lambda$loadGlue$1(JavaBackend.java:43)
-	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:78)
-	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:69)
-	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:33)
-	at io.cucumber.java.JavaBackend.lambda$loadGlue$2(JavaBackend.java:41)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
-	at java.base/java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:174)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
-	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at io.cucumber.java.JavaBackend.loadGlue(JavaBackend.java:41)
-	at io.cucumber.core.runner.Runner.&lt;init&gt;(Runner.java:56)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.createRunner(ThreadLocalRunnerSupplier.java:47)
-	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:357)
-	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:225)
-	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:194)
-	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.get(ThreadLocalRunnerSupplier.java:40)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:35)
-	at io.cucumber.core.runtime.CucumberExecutionContext.getRunner(CucumberExecutionContext.java:140)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runBeforeAllHooks(CucumberExecutionContext.java:92)
-	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:124)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>29</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>29</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>33</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>33</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>30</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>33</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
+<td></td>
+<td>30</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>30</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array Practice topic links and runs the  python code", "P1 As a user I want to navigate to the Array Practice home page"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>48</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>35</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>37</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>31</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>43</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  python code", "F6 As a user I want to navigate to the Graph home page"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>50</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Datastructures topic links and runs the  python code", "F0 As a user I want to navigate to the Datastructures home page"</td>
+<td></td>
+<td>47</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>34</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>31</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>34</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  python code", "F6 As a user I want to navigate to the Graph home page"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  invalid python code", "F6 As a user I want to navigate to the Graph home page"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>35</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>28</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  invalid python code", "F6 As a user I want to navigate to the Graph home page"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>34</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  invalid python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>39</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
+<td></td>
+<td>34</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>51</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Datastructures topic links and runs the  invalid python code", "F0 As a user I want to navigate to the Datastructures home page"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  invalid python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is opening the DS_Algo website and navigates the Home Page", "As a User I am able to open the website and have access to the home page"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>32</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>43</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>34</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>42</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
+<td></td>
+<td>45</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>28</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>44</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration page validation", "F2 User creates new account in the registration page"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  invalid python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>41</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>32</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>40</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>48</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array Practice topic links and runs the  python code", "P1 As a user I want to navigate to the Array Practice home page"</td>
+<td></td>
+<td>34</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>28</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>35</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
+<td></td>
+<td>36</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
+<td></td>
+<td>32</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array Practice topic links and runs the  invalid python code", "P1 As a user I want to navigate to the Array Practice home page"</td>
+<td></td>
+<td>38</td>
+<td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
+<td></td>
+<td>49</td>
 <td>dsAlgoRunner.Runner_Test@1f59a598</td></tr>
 </table><p>
 </body>

@@ -1,5 +1,6 @@
 package dsalgoHooks;
 
+import java.io.FileInputStream;
 import java.util.Properties;
 
 import org.openqa.selenium.OutputType;
@@ -7,6 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Parameters;
 
+import dsutilities.ConfigurationReader;
 import dsutilities.ConfigurationReader;
 import dsutilities.DriverFactory;
 import dsutilities.LoggerLoad;
@@ -17,31 +19,23 @@ import io.cucumber.java.Scenario;
 public class DsHooks {
 	private WebDriver driver;
 	private DriverFactory driverfactory;
-	private Properties prop;
+
 	@Before(order=0)
-	//@Parameters("browser")
+	
 	public void launchbrowser() throws Throwable
 	{
-		//Get browser Type from config file
-//
-//				LoggerLoad.info("Loading Config file");
-//
-//				ConfigurationReader.getProperty("config","key");
-//
-//				String browser = ConfigurationReader.getBrowserType();
-				
-	//**********************			
+		//ConfigurationReader.getProperty(browser);
+		//String browser=prop.getProperty("browser");
+		String browser=ConfigurationReader.getBrowserType();
 		driverfactory=new DriverFactory();
-		String browserName=ConfigurationReader.getProperty("config","chromeBrowser");
-		//String browserName=ConfigurationReader.getProperty("config","key");
-		driver=driverfactory.inint(browserName);
-		//driver=driverfactory.inint(browser);
+		driver=driverfactory.inint(browser);
+		
 	}
 	
 	@After(order=0)
 	public void quitbrowser()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 	@After(order=1)
 	public void teardown(Scenario scenario)
