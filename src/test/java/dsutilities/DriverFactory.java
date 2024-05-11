@@ -43,6 +43,7 @@ public class DriverFactory {
 		}
 		if(browser.equals("msedge"))
 		{
+			System.out.println("Inside Edge Browser");
 			driver=new EdgeDriver(optionManager.getEdgeOptions());
 			tldriver.set(driver);
 		}
