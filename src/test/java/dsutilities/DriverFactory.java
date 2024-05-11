@@ -41,7 +41,7 @@ public class DriverFactory {
 			driver=new FirefoxDriver(optionManager.getFireFoxOptions());
 			tldriver.set(driver);
 		}
-		if(browser.equals("edgeBrowser"))
+		if(browser.equals("msedge"))
 		{
 			driver=new EdgeDriver(optionManager.getEdgeOptions());
 			tldriver.set(driver);
