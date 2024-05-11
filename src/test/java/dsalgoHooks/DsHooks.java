@@ -1,12 +1,11 @@
 package dsalgoHooks;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Properties;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
 
 import dsutilities.ConfigurationReader;
 import dsutilities.DriverFactory;
@@ -19,11 +18,21 @@ public class DsHooks {
 	private DriverFactory driverfactory;
 	private Properties prop;
 	@Before(order=0)
-	public void launchbrowser() throws FileNotFoundException, IOException
+//	public void launchbrowser() throws FileNotFoundException, IOException
+//	{
+//		driverfactory=new DriverFactory();
+//		String browserName=ConfigurationReader.getProperty("config","chromeBrowser");
+//		driver=driverfactory.inint(browserName);
+//		
+//	}
+	@BeforeTest
+	public void launchbrowser() throws Throwable
 	{
+		//ConfigurationReader.getProperty(browser);
+		//String browser=prop.getProperty("browser");
+		String browser=ConfigurationReader.getBrowserType();
 		driverfactory=new DriverFactory();
-		String browserName=ConfigurationReader.getProperty("config","chromeBrowser");
-		driver=driverfactory.inint(browserName);
+		driver=driverfactory.inint(browser);
 		
 	}
 	

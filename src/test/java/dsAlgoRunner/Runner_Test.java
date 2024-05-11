@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		plugin= {"pretty","html:src/test/resources/Reports/TestReport.html"},
-		features = "src/test/resources/Features/",
+		features = "src/test/resources/Features/HomePage1.feature",
 		glue = {"dsalgo_stepdefinition","dsalgoHooks"}, 
 		tags = "",
 		monochrome = true, 
@@ -26,6 +26,7 @@ public class Runner_Test extends AbstractTestNGCucumberTests{
 //		ConfigurationReader.setBrowserType(browser);
 //		System.out.println(browser);
 //	}
+
 	
 	@Override
     @DataProvider(parallel = true)
@@ -33,4 +34,10 @@ public class Runner_Test extends AbstractTestNGCucumberTests{
 				
 		return super.scenarios();	
     }
+	@BeforeTest
+	@Parameters("browser")
+	public void defineBrowser(String browser) throws Throwable {
+
+	ConfigurationReader.setBrowserType(browser);
+}
 }
