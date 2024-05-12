@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Test_Suite" class="navigator-link ">
-                    <span class="test-stats">4 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,11 +101,6 @@
                       <a href="#" panel-name="suite-Test_Suite" class="show-methods passed suite-Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Test_Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="dsAlgoRunner.Runner_Test" class="method navigator-link" hash-for-method="runScenario(&quot;User is opening the DS_Algo website and navigates the Home Page&quot;, &quot;As a User I am able to open the ...)">runScenario("User is opening the DS_Algo website and navigates the Home Page", "As a User I am able to open the ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Test_Suite" title="dsAlgoRunner.Runner_Test" class="method navigator-link" hash-for-method="runScenario(&quot;User is opening the DS_Algo website and navigates the Home Page&quot;, &quot;As a User I am able to open the ...)">runScenario("User is opening the DS_Algo website and navigates the Home Page", "As a User I am able to open the ...)</a> <!-- method navigator-link -->
@@ -154,16 +149,6 @@
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is opening the DS_Algo website and navigates the Home Page&quot;, &quot;As a User I am able to open the ...)">
-                  </a> <!-- runScenario("User is opening the DS_Algo website and navigates the Home Page", "As a User I am able to open the ...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is opening the DS_Algo website and navigates the Home Page","As a User I am able to open the website and have access to the home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Test_Suite-class-passed -->
         </div> <!-- panel Test_Suite -->
@@ -188,12 +173,6 @@
       &lt;class name=&quot;dsAlgoRunner.Runner_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestFirefox --&gt;
-  &lt;test thread-count=&quot;3&quot; name=&quot;edgeBrowser&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;msedge&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;dsAlgoRunner.Runner_Test&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- edgeBrowser --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Test Suite --&gt;
@@ -211,9 +190,6 @@
               </li>
               <li>
                 <span class="test-name">TestFirefox (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">edgeBrowser (1 class)</span>
               </li>
               <li>
                 <span class="test-name">Test (0 classes)</span>
@@ -250,24 +226,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'dsAlgoRunner.Runner_Test')
-data.setCell(0, 3, 21128);
+data.setCell(0, 3, 20317);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'dsAlgoRunner.Runner_Test')
-data.setCell(1, 3, 19429);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'dsAlgoRunner.Runner_Test')
-data.setCell(2, 3, 18956);
+data.setCell(1, 3, 18680);
 window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Test_Suite">
               </div> <!-- times-div-Test_Suite -->
             </div> <!-- times-div -->
@@ -299,48 +271,32 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@545f80bf)</span>
-                <span class="method-start">36 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@392a04e7)</span>
+                <span class="method-start">33 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is opening the DS_Algo website and navigates the Home Page", "As a User I am able to open the ...)</span>
-                <span class="method-start">711 ms</span>
+                <span class="method-start">544 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">20150 ms</span>
+                <span class="method-start">19288 ms</span>
               </div> <!-- configuration-class after -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@66f66866)</span>
-                <span class="method-start">20211 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-test before">
                 <span class="method-name">defineBrowser(firefox)</span>
-                <span class="method-start">20211 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">runScenario("User is opening the DS_Algo website and navigates the Home Page", "As a User I am able to open the ...)</span>
-                <span class="method-start">20246 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">41379 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test before">
-                <span class="method-name">defineBrowser(msedge)</span>
-                <span class="method-start">41395 ms</span>
+                <span class="method-start">19354 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@22fa55b2)</span>
-                <span class="method-start">41396 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@7f02251)</span>
+                <span class="method-start">19355 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is opening the DS_Algo website and navigates the Home Page", "As a User I am able to open the ...)</span>
-                <span class="method-start">41422 ms</span>
+                <span class="method-start">19389 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">60383 ms</span>
+                <span class="method-start">39711 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

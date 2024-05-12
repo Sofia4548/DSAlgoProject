@@ -66,8 +66,9 @@ public class Practise_stepdefinition {
 			String sheetname, Integer rowno) throws InvalidFormatException, IOException, InterruptedException {
 		TestDataReadingWriting reader = new TestDataReadingWriting();
 		List<Map<String, String>> gettextdata = reader.getData(file, sheetname);
-
+		
 		String inputdata = gettextdata.get(rowno).get("Inputpythoncode");
+		
 		outputdata = gettextdata.get(rowno).get("ExpectedOutput");
 		System.out.println(inputdata);
 		System.out.println(outputdata);
