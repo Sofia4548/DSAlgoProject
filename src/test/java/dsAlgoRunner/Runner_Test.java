@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin= {"pretty","html:src/test/resources/Reports/TestReport.html"},
-		features = "src/test/resources/Features/DSStack.feature",
+		features = "src/test/resources/Features/HomePage1.feature",
 		glue = {"dsalgo_stepdefinition","dsalgoHooks"}, 
 		tags = "",
 		monochrome = true, 
