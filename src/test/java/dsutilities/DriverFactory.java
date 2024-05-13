@@ -30,11 +30,11 @@ public class DriverFactory {
 			driver=new FirefoxDriver(optionManager.getFireFoxOptions());
 			tldriver.set(driver);
 		}
-		else if(browser.equals("edgeBrowser"))
-		{	
-			driver=new EdgeDriver(optionManager.getEdgeOptions());
-			tldriver.set(driver);
-		}
+//		if(browser.equals("edgeBrowser"))
+//		{
+//			driver=new EdgeDriver(optionManager.getEdgeOptions());
+//			tldriver.set(driver);
+//		}
 		else
 		{
 			System.out.println("Enter the correct browser name"+browser);

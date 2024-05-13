@@ -25,12 +25,12 @@ public FirefoxOptions getFireFoxOptions()
 	options.addArguments("--headless");
 	return options;
 }
-public EdgeOptions getEdgeOptions()
-{
-	EdgeOptions options = new EdgeOptions();
-	options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-	options.addArguments("--headless");
-	//options = WebDriver.Edge(executable_path = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",options = edge_options )
-	return options;
-}
+//public EdgeOptions getEdgeOptions()
+//{
+//	EdgeOptions options = new EdgeOptions();
+//	options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+//	options.addArguments("--headless");
+//	//options = WebDriver.Edge(executable_path = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",options = edge_options )
+//	return options;
+//}
 }
