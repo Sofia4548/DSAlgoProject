@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		plugin= {"pretty","html:src/test/resources/Reports/TestReport.html"},
-		features = "src/test/resources/Features/HomePage1.feature",
+		features = "src/test/resources/Features",
 		glue = {"dsalgo_stepdefinition","dsalgoHooks"}, 
 		tags = "",
 		monochrome = true, 
