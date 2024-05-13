@@ -29,9 +29,9 @@ public class Runner_Test extends AbstractTestNGCucumberTests{
 				
 		return super.scenarios();	
     }
-@BeforeTest
+	@BeforeTest
 	@Parameters("browser")
-	public void defineBrowser(@Optional("google chrome")String browser) throws Throwable {
+	public void defineBrowser(String browser) throws Throwable {
 	//public void defineBrowser(String browser) throws Throwable {
 
 	ConfigurationReader.setBrowserType(browser);
