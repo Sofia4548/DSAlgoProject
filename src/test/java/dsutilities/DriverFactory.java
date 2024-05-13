@@ -13,16 +13,14 @@ public class DriverFactory {
 	OptionManager optionManager=new OptionManager();
 	public static  ThreadLocal<WebDriver>tldriver=new ThreadLocal<>();
 	
-	/*
-	 * This Method initialize the threadlocal driver based on the given browser name
-	 */
-	
+	//This Method initialize the threadlocal driver based on the given browser name
 	public WebDriver inint(String browser)
 	{
+		LoggerLoad.info(browser);		
 		System.out.println(browser);
+		
 		if(browser.equals("google chrome"))
 		{		
-			
 			driver=new ChromeDriver(optionManager.getChromeOptions());
 			tldriver.set(driver);
 		}

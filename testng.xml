@@ -13,6 +13,13 @@
       <class name="dsAlgoRunner.Runner_Test"/>
     </classes>
   </test> <!-- Test -->
+   <test thread-count="3" name="TestEdge">
+	  <parameter name="browser" value="edgeBrowser"></parameter>
+    <classes>
+      <class name="dsAlgoRunner.Runner_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
   
   <test thread-count="5" name="Test">
   </test> <!-- Test -->

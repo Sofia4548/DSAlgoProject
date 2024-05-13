@@ -49,7 +49,8 @@ List<WebElement> links=stackpage1.getLinkByTopics(topic);
 	@Then("the user redirected to the clicked  link page in the stack data structure")
 	public void the_user_redirected_to_the_clicked_link_page_in_the_stack_data_structure() {
 		String msg=stackpage1.GetCurrentlinkurl();
-		System.out.println("The user landed on:"+msg);
+		//System.out.println("The user landed on:"+msg);
+		LoggerLoad.info("The user landed on:"+msg);
 	    
 	}
 
@@ -62,7 +63,8 @@ List<WebElement> links=stackpage1.getLinkByTopics(topic);
 	@Then("the user is redirected to the Editor page with Run button in the stack page")
 	public void the_user_is_redirected_to_the_editor_page_with_run_button_in_the_stack_page() {
 		String title=stackpage1.geturltitle();
-		System.out.println("The current page is :"+ title);
+		//System.out.println("The current page is :"+ title);
+		LoggerLoad.info("The current page is :"+ title);
 	    
 	}
 
@@ -122,7 +124,6 @@ List<WebElement> links=stackpage1.getLinkByTopics(topic);
 	public void the_user_is_logged_out_of_the_stack_and_the_dsalgoportal_and_the_message_is_displayed(String actualmsg) {
 		String logoutmsg=stackpage1.ReadLogoutmsg();
 		assertEquals(logoutmsg,actualmsg);
-		//System.out.println(logoutmsg);
 		LoggerLoad.info(logoutmsg);
 	    
 	    

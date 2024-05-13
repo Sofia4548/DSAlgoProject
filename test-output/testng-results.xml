@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-12T17:49:29 EDT" name="Test Suite" finished-at="2024-05-12T17:51:08 EDT" duration-ms="99459">
+  <suite started-at="2024-05-13T12:52:45 EDT" name="Default suite" finished-at="2024-05-13T12:53:07 EDT" duration-ms="22215">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@5c86dbc5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@47c81abf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@21d03963]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-05-12T17:49:29 EDT" name="TestChrome" finished-at="2024-05-12T17:50:02 EDT" duration-ms="33417">
+    <test started-at="2024-05-13T12:52:45 EDT" name="Default test" finished-at="2024-05-13T12:53:07 EDT" duration-ms="22215">
       <class name="dsAlgoRunner.Runner_Test">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:dsAlgoRunner.Runner_Test@5c86dbc5]" started-at="2024-05-12T17:49:29 EDT" name="defineBrowser" finished-at="2024-05-12T17:49:29 EDT" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" started-at="2024-05-13T12:52:45 EDT" name="defineBrowser" finished-at="2024-05-13T12:52:45 EDT" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,132 +21,118 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@5c86dbc5]" started-at="2024-05-12T17:49:29 EDT" name="setUpClass" finished-at="2024-05-12T17:49:30 EDT" duration-ms="825" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" started-at="2024-05-13T12:52:45 EDT" name="setUpClass" finished-at="2024-05-13T12:52:46 EDT" duration-ms="670" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6974a715]]>
+                <![CDATA[org.testng.TestRunner@2d140a7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@5c86dbc5]" started-at="2024-05-12T17:49:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-12T17:50:02 EDT" duration-ms="32344" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" started-at="2024-05-13T12:52:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-13T12:53:06 EDT" duration-ms="20316" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["User is opening the DS_Algo website and navigates the Home Page"]]>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["As a User I am able to open the website and have access to the home page"]]>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@5c86dbc5]" started-at="2024-05-12T17:50:02 EDT" name="tearDownClass" finished-at="2024-05-12T17:50:02 EDT" duration-ms="40" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- dsAlgoRunner.Runner_Test -->
-    </test> <!-- TestChrome -->
-    <test started-at="2024-05-12T17:50:02 EDT" name="TestFirefox" finished-at="2024-05-12T17:50:44 EDT" duration-ms="41941">
-      <class name="dsAlgoRunner.Runner_Test">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:dsAlgoRunner.Runner_Test@47c81abf]" started-at="2024-05-12T17:50:02 EDT" name="defineBrowser" finished-at="2024-05-12T17:50:02 EDT" duration-ms="1" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" started-at="2024-05-13T12:52:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-13T12:53:07 EDT" duration-ms="20845" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@47c81abf]" started-at="2024-05-12T17:50:02 EDT" name="setUpClass" finished-at="2024-05-12T17:50:02 EDT" duration-ms="18" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@5e8a459]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@47c81abf]" started-at="2024-05-12T17:50:02 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-12T17:50:44 EDT" duration-ms="41892" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User is opening the DS_Algo website and navigates the Home Page"]]>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["As a User I am able to open the website and have access to the home page"]]>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@47c81abf]" started-at="2024-05-12T17:50:44 EDT" name="tearDownClass" finished-at="2024-05-12T17:50:44 EDT" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- dsAlgoRunner.Runner_Test -->
-    </test> <!-- TestFirefox -->
-    <test started-at="2024-05-12T17:50:44 EDT" name="edgeBrowser" finished-at="2024-05-12T17:51:08 EDT" duration-ms="24016">
-      <class name="dsAlgoRunner.Runner_Test">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:dsAlgoRunner.Runner_Test@21d03963]" started-at="2024-05-12T17:50:44 EDT" name="defineBrowser" finished-at="2024-05-12T17:50:44 EDT" duration-ms="0" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" started-at="2024-05-13T12:52:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-13T12:53:07 EDT" duration-ms="20754" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edgeBrowser]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgoRunner.Runner_Test@21d03963]" started-at="2024-05-12T17:50:44 EDT" name="setUpClass" finished-at="2024-05-12T17:50:44 EDT" duration-ms="18" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@43d455c9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@21d03963]" started-at="2024-05-12T17:50:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-12T17:51:08 EDT" duration-ms="23967" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User is opening the DS_Algo website and navigates the Home Page"]]>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["As a User I am able to open the website and have access to the home page"]]>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@21d03963]" started-at="2024-05-12T17:51:08 EDT" name="tearDownClass" finished-at="2024-05-12T17:51:08 EDT" duration-ms="23" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" started-at="2024-05-13T12:52:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-13T12:53:06 EDT" duration-ms="19678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" started-at="2024-05-13T12:52:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-13T12:53:07 EDT" duration-ms="21420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" started-at="2024-05-13T12:52:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-13T12:53:07 EDT" duration-ms="21435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user clicks the Stack topic links and runs the  invalid python code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F3 The signedin user selects the  stack datastructure module and runs the python code"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgoRunner.Runner_Test@730d2164]" started-at="2024-05-13T12:53:07 EDT" name="tearDownClass" finished-at="2024-05-13T12:53:07 EDT" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- dsAlgoRunner.Runner_Test -->
-    </test> <!-- edgeBrowser -->
-    <test started-at="2024-05-12T17:51:08 EDT" name="Test" finished-at="2024-05-12T17:51:08 EDT" duration-ms="6">
-    </test> <!-- Test -->
-  </suite> <!-- Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

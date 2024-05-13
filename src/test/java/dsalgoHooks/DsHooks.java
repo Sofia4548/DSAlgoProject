@@ -24,10 +24,9 @@ public class DsHooks {
 	
 	public void launchbrowser() throws Throwable
 	{
-		//ConfigurationReader.getProperty(browser);
-		//String browser=prop.getProperty("browser");
 		String browser=ConfigurationReader.getBrowserType();
 		driverfactory=new DriverFactory();
+		//String browserName=ConfigurationReader.getProperty("config","chromeBrowser");
 		driver=driverfactory.inint(browser);
 		
 	}
@@ -37,6 +36,7 @@ public class DsHooks {
 	{
 		driver.quit();
 	}
+	
 	@After(order=1)
 	public void teardown(Scenario scenario)
 	{
