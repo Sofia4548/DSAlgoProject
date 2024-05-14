@@ -3426,3 +3426,24 @@
 [INFO ] 2024-05-14 09:58:27.875 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
 [INFO ] 2024-05-14 09:58:28.167 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
 [INFO ] 2024-05-14 09:58:28.305 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 10:36:49.040 [TestNG-PoolService-3] LoggerLoad - google chrome
+[INFO ] 2024-05-14 10:36:49.040 [TestNG-PoolService-1] LoggerLoad - google chrome
+[INFO ] 2024-05-14 10:36:49.040 [TestNG-PoolService-5] LoggerLoad - google chrome
+[INFO ] 2024-05-14 10:36:49.040 [TestNG-PoolService-4] LoggerLoad - google chrome
+[INFO ] 2024-05-14 10:36:49.040 [TestNG-PoolService-6] LoggerLoad - google chrome
+[INFO ] 2024-05-14 10:36:49.040 [TestNG-PoolService-2] LoggerLoad - google chrome
+[INFO ] 2024-05-14 10:37:02.428 [TestNG-PoolService-6] LoggerLoad - The user landed on:Applications
+[INFO ] 2024-05-14 10:37:02.740 [TestNG-PoolService-3] LoggerLoad - The user landed on:Applications
+[INFO ] 2024-05-14 10:37:03.088 [TestNG-PoolService-5] LoggerLoad - The user landed on:Implementation
+[INFO ] 2024-05-14 10:37:03.354 [TestNG-PoolService-6] LoggerLoad - The current page is :Assessment
+[INFO ] 2024-05-14 10:37:03.468 [TestNG-PoolService-4] LoggerLoad - The user landed on:Operations in Stack
+[INFO ] 2024-05-14 10:37:03.556 [TestNG-PoolService-1] LoggerLoad - The user landed on:Operations in Stack
+[INFO ] 2024-05-14 10:37:03.714 [TestNG-PoolService-2] LoggerLoad - The user landed on:Implementation
+[INFO ] 2024-05-14 10:37:04.089 [TestNG-PoolService-3] LoggerLoad - The current page is :Assessment
+[INFO ] 2024-05-14 10:37:04.107 [TestNG-PoolService-5] LoggerLoad - The current page is :Assessment
+[INFO ] 2024-05-14 10:37:04.914 [TestNG-PoolService-1] LoggerLoad - The current page is :Assessment
+[INFO ] 2024-05-14 10:37:05.012 [TestNG-PoolService-2] LoggerLoad - The current page is :Assessment
+[INFO ] 2024-05-14 10:37:05.089 [TestNG-PoolService-4] LoggerLoad - The current page is :Assessment
+[INFO ] 2024-05-14 10:37:07.893 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 10:37:07.919 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 10:37:08.031 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
