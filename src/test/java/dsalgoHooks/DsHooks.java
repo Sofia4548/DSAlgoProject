@@ -24,9 +24,9 @@ public class DsHooks {
 	
 	public void launchbrowser() throws Throwable
 	{
-		String browser=ConfigurationReader.getBrowserType();
+		//String browser=ConfigurationReader.getBrowserType();
 		driverfactory=new DriverFactory();
-		//String browser=ConfigurationReader.getProperty("config","chromeBrowser");
+		String browser=ConfigurationReader.getProperty("config","chromeBrowser");
 		driver=driverfactory.inint(browser);
 		
 	}
