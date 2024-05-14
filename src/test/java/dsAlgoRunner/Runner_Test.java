@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin= {"pretty","html:src/test/resources/Reports/TestReport.html","json:src/test/resources/Reports/cucumber.json"},
-		features = "src/test/resources/Features/",
+		features = "src/test/resources/Features/DSStack.feature",
 		glue = {"dsalgo_stepdefinition","dsalgoHooks"}, 
 		tags = "",
 		monochrome = true, 
@@ -31,7 +31,8 @@ public class Runner_Test extends AbstractTestNGCucumberTests{
     }
 	@BeforeTest
 	@Parameters("browser")
-	 public void defineBrowser(@Optional("google chrome") String browser) throws Throwable {
+	
+	public void defineBrowser( @Optional("chrome") String browser) throws Throwable{
 	//public void defineBrowser(String browser) throws Throwable {
 
 	ConfigurationReader.setBrowserType(browser);
