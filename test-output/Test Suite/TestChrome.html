@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestChrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>71/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>51/20/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 13 13:45:10 EDT 2024</td>
+<td>Started on:</td><td>Tue May 14 08:39:47 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>71 seconds (71121 ms)</td>
+<tr><td>Total time:</td><td>158 seconds (158785 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,1034 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffd393a4503377db6dcf357d3ea199c9, sendKeysToElement {id=f.F96ABB7747D208CBBCE15992887C9040.d.96A83FA4F48D4D9FC994EE51921ABF90.e.46, value=[Ljava.lang.CharSequence;@496d643}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57932}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57932/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ffd393a4503377db6dcf357d3ea199c9)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: ffd393a4503377db6dcf357d3ea199c9
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:108)
+	at ✽.The user clicks on run button after providing the invalid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:41)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace612879142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace612879142'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffd393a4503377db6dcf357d3ea199c9, sendKeysToElement {id=f.F96ABB7747D208CBBCE15992887C9040.d.96A83FA4F48D4D9FC994EE51921ABF90.e.46, value=[Ljava.lang.CharSequence;@496d643}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57932}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57932/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ffd393a4503377db6dcf357d3ea199c9)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: ffd393a4503377db6dcf357d3ea199c9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:108)
+	at ✽.The user clicks on run button after providing the invalid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:41)
+</pre></div></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  python code", "F6 As a user I want to navigate to the Graph home page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d49ebf58cfca322024688be2951342e, sendKeysToElement {id=f.0ED971A46F236EB4AD62ED42ECB71FBD.d.2AFB353C6EE0D6F0E594E7DC8D03A21C.e.43, value=[Ljava.lang.CharSequence;@198a97de}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57194/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0d49ebf58cfca322024688be2951342e)] -&gt; xpath: //*[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 0d49ebf58cfca322024688be2951342e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.GraphPage.enterCode(GraphPage.java:61)
+	at dsalgo_stepdefinition.Graph_stepdefinition.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_graph_page_from_given_sheetname_and_rowno(Graph_stepdefinition.java:64)
+	at ✽.the user clicks on run button after providing the valid python code in graph page from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Graph.feature:18)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace367457188", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace367457188'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d49ebf58cfca322024688be2951342e, sendKeysToElement {id=f.0ED971A46F236EB4AD62ED42ECB71FBD.d.2AFB353C6EE0D6F0E594E7DC8D03A21C.e.43, value=[Ljava.lang.CharSequence;@198a97de}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57194/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0d49ebf58cfca322024688be2951342e)] -&gt; xpath: //*[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 0d49ebf58cfca322024688be2951342e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.GraphPage.enterCode(GraphPage.java:61)
+	at dsalgo_stepdefinition.Graph_stepdefinition.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_graph_page_from_given_sheetname_and_rowno(Graph_stepdefinition.java:64)
+	at ✽.the user clicks on run button after providing the valid python code in graph page from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Graph.feature:18)
+</pre></div></td>
+<td>22</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab090a84cd4551f9c1e9a847875f60da, sendKeysToElement {id=f.2CA5211915373EF21FBBA9597FEA4F62.d.BE548E27CCD347AF7CA51EA64B419C9E.e.51, value=[Ljava.lang.CharSequence;@68ad3d4b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59017}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59017/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ab090a84cd4551f9c1e9a847875f60da)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: ab090a84cd4551f9c1e9a847875f60da
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:43)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace711842639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace711842639'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab090a84cd4551f9c1e9a847875f60da, sendKeysToElement {id=f.2CA5211915373EF21FBBA9597FEA4F62.d.BE548E27CCD347AF7CA51EA64B419C9E.e.51, value=[Ljava.lang.CharSequence;@68ad3d4b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59017}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59017/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ab090a84cd4551f9c1e9a847875f60da)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: ab090a84cd4551f9c1e9a847875f60da
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:43)
+</pre></div></td>
+<td>25</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e946a6ce78187192237d510602e8393, sendKeysToElement {id=f.BE24E58400ADB0700BD704B3F27CA33C.d.850B474F594DBE6007772B8FE7BFB994.e.51, value=[Ljava.lang.CharSequence;@280c291}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58685/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9e946a6ce78187192237d510602e8393)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 9e946a6ce78187192237d510602e8393
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1920211735", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1920211735'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e946a6ce78187192237d510602e8393, sendKeysToElement {id=f.BE24E58400ADB0700BD704B3F27CA33C.d.850B474F594DBE6007772B8FE7BFB994.e.51, value=[Ljava.lang.CharSequence;@280c291}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58685/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9e946a6ce78187192237d510602e8393)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 9e946a6ce78187192237d510602e8393
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+</pre></div></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [48e2e3d64a682034ca61e092fc36ad43, sendKeysToElement {id=f.6E6FD8C6AE82D8F1D48F2B380C4E76D7.d.64342CEF4972EF7041621B03A2B6452C.e.45, value=[Ljava.lang.CharSequence;@1be596d3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58299/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (48e2e3d64a682034ca61e092fc36ad43)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 48e2e3d64a682034ca61e092fc36ad43
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.QueuePage.EnterCode(QueuePage.java:73)
+	at dsalgo_stepdefinition.QueuePage_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_queue_page_from_given_sheetname_and_rowno(QueuePage_stepdefination.java:79)
+	at ✽.The user clicks on run button after providing the valid python code in queue page from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Queue.feature:20)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1323678497", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1323678497'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [48e2e3d64a682034ca61e092fc36ad43, sendKeysToElement {id=f.6E6FD8C6AE82D8F1D48F2B380C4E76D7.d.64342CEF4972EF7041621B03A2B6452C.e.45, value=[Ljava.lang.CharSequence;@1be596d3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58299/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (48e2e3d64a682034ca61e092fc36ad43)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 48e2e3d64a682034ca61e092fc36ad43
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.QueuePage.EnterCode(QueuePage.java:73)
+	at dsalgo_stepdefinition.QueuePage_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_queue_page_from_given_sheetname_and_rowno(QueuePage_stepdefination.java:79)
+	at ✽.The user clicks on run button after providing the valid python code in queue page from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Queue.feature:20)
+</pre></div></td>
+<td>21</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a16fe6d41cea0c86e9dfe0f91f6b4a5, sendKeysToElement {id=f.32A38EE335DB992CB14763AC919263CD.d.42F804EAC682DDDE327EDA87D40505A0.e.44, value=[Ljava.lang.CharSequence;@4aeaadb6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58401/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5a16fe6d41cea0c86e9dfe0f91f6b4a5)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 5a16fe6d41cea0c86e9dfe0f91f6b4a5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.QueuePage.EnterCode(QueuePage.java:73)
+	at dsalgo_stepdefinition.QueuePage_stepdefination.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_queue_page_from_given_sheetname_and_rowno_rownumber(QueuePage_stepdefination.java:101)
+	at ✽.The user clicks on run button after providing the invalid python code in queue page from given sheetname &quot;PythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Queue.feature:38)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1153756992", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1153756992'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a16fe6d41cea0c86e9dfe0f91f6b4a5, sendKeysToElement {id=f.32A38EE335DB992CB14763AC919263CD.d.42F804EAC682DDDE327EDA87D40505A0.e.44, value=[Ljava.lang.CharSequence;@4aeaadb6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58401/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5a16fe6d41cea0c86e9dfe0f91f6b4a5)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 5a16fe6d41cea0c86e9dfe0f91f6b4a5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.QueuePage.EnterCode(QueuePage.java:73)
+	at dsalgo_stepdefinition.QueuePage_stepdefination.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_queue_page_from_given_sheetname_and_rowno_rownumber(QueuePage_stepdefination.java:101)
+	at ✽.The user clicks on run button after providing the invalid python code in queue page from given sheetname &quot;PythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Queue.feature:38)
+</pre></div></td>
+<td>19</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168a60dba8423e2c33a9f68b0d1f870d, sendKeysToElement {id=f.8B7B2B9B1C19B76F9559CCD9419DFE5E.d.A2C58B7FB82C97511A08F2208C88AAA6.e.43, value=[Ljava.lang.CharSequence;@210f2e77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58190/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (168a60dba8423e2c33a9f68b0d1f870d)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 168a60dba8423e2c33a9f68b0d1f870d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.QueuePage.EnterCode(QueuePage.java:73)
+	at dsalgo_stepdefinition.QueuePage_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_queue_page_from_given_sheetname_and_rowno(QueuePage_stepdefination.java:79)
+	at ✽.The user clicks on run button after providing the valid python code in queue page from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Queue.feature:20)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace891525094", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace891525094'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [168a60dba8423e2c33a9f68b0d1f870d, sendKeysToElement {id=f.8B7B2B9B1C19B76F9559CCD9419DFE5E.d.A2C58B7FB82C97511A08F2208C88AAA6.e.43, value=[Ljava.lang.CharSequence;@210f2e77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58190/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (168a60dba8423e2c33a9f68b0d1f870d)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 168a60dba8423e2c33a9f68b0d1f870d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.QueuePage.EnterCode(QueuePage.java:73)
+	at dsalgo_stepdefinition.QueuePage_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_queue_page_from_given_sheetname_and_rowno(QueuePage_stepdefination.java:79)
+	at ✽.The user clicks on run button after providing the valid python code in queue page from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Queue.feature:20)
+</pre></div></td>
+<td>24</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fdee9bd44c32cfb5c4672c136441934a, sendKeysToElement {id=f.16452A163BF7786A08DD8D706BBCEFE2.d.0F37706827BBB3280B2FD75F89CA082A.e.55, value=[Ljava.lang.CharSequence;@7c5d16f2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57999/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fdee9bd44c32cfb5c4672c136441934a)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: fdee9bd44c32cfb5c4672c136441934a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:108)
+	at ✽.The user clicks on run button after providing the invalid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:41)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1295890426", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1295890426'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fdee9bd44c32cfb5c4672c136441934a, sendKeysToElement {id=f.16452A163BF7786A08DD8D706BBCEFE2.d.0F37706827BBB3280B2FD75F89CA082A.e.55, value=[Ljava.lang.CharSequence;@7c5d16f2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57999/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fdee9bd44c32cfb5c4672c136441934a)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: fdee9bd44c32cfb5c4672c136441934a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:108)
+	at ✽.The user clicks on run button after providing the invalid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:41)
+</pre></div></td>
+<td>23</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [763727eb61886b858b1a28727eadc927, sendKeysToElement {id=f.D2AD39F36FE433EF54AB4A45CC961D05.d.1CEDC70CEA4CBA0A51005544F97AD322.e.51, value=[Ljava.lang.CharSequence;@5475188e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58959/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (763727eb61886b858b1a28727eadc927)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 763727eb61886b858b1a28727eadc927
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2088566805", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2088566805'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [763727eb61886b858b1a28727eadc927, sendKeysToElement {id=f.D2AD39F36FE433EF54AB4A45CC961D05.d.1CEDC70CEA4CBA0A51005544F97AD322.e.51, value=[Ljava.lang.CharSequence;@5475188e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58959/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (763727eb61886b858b1a28727eadc927)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 763727eb61886b858b1a28727eadc927
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+</pre></div></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec411fd7bbe3537d1e82a7b45e10bbd2, sendKeysToElement {id=f.BFF7CFCA6CFBAA3A39C91CC09B5C5364.d.F1BB85899B7855FB74FF95802212E900.e.47, value=[Ljava.lang.CharSequence;@2d6a2f78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57547/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec411fd7bbe3537d1e82a7b45e10bbd2)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: ec411fd7bbe3537d1e82a7b45e10bbd2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:82)
+	at ✽.The user clicks on run button after providing the valid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:20)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1804805114", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1804805114'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec411fd7bbe3537d1e82a7b45e10bbd2, sendKeysToElement {id=f.BFF7CFCA6CFBAA3A39C91CC09B5C5364.d.F1BB85899B7855FB74FF95802212E900.e.47, value=[Ljava.lang.CharSequence;@2d6a2f78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57547/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec411fd7bbe3537d1e82a7b45e10bbd2)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: ec411fd7bbe3537d1e82a7b45e10bbd2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:82)
+	at ✽.The user clicks on run button after providing the valid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:20)
+</pre></div></td>
+<td>21</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e6709f0483d4080dc4e85ac6f703166, sendKeysToElement {id=f.472E408DE6D2794F82F66EC46783C8FF.d.4EE12FF5C8B5CA68DAF7C26EE6985F3D.e.51, value=[Ljava.lang.CharSequence;@3abf602d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59137/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0e6709f0483d4080dc4e85ac6f703166)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 0e6709f0483d4080dc4e85ac6f703166
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:43)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace809288149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace809288149'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e6709f0483d4080dc4e85ac6f703166, sendKeysToElement {id=f.472E408DE6D2794F82F66EC46783C8FF.d.4EE12FF5C8B5CA68DAF7C26EE6985F3D.e.51, value=[Ljava.lang.CharSequence;@3abf602d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59137/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0e6709f0483d4080dc4e85ac6f703166)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 0e6709f0483d4080dc4e85ac6f703166
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:43)
+</pre></div></td>
+<td>19</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [014abde012e2c3eb40d1f6f83936b456, sendKeysToElement {id=f.BFF5F7CE04E59A7AD55677C58FFEC979.d.87CB1FEEF48DDE8F193374AAD541264F.e.51, value=[Ljava.lang.CharSequence;@f0eeebf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58798}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58798/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (014abde012e2c3eb40d1f6f83936b456)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 014abde012e2c3eb40d1f6f83936b456
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace53494365", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace53494365'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [014abde012e2c3eb40d1f6f83936b456, sendKeysToElement {id=f.BFF5F7CE04E59A7AD55677C58FFEC979.d.87CB1FEEF48DDE8F193374AAD541264F.e.51, value=[Ljava.lang.CharSequence;@f0eeebf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58798}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58798/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (014abde012e2c3eb40d1f6f83936b456)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 014abde012e2c3eb40d1f6f83936b456
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+</pre></div></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array Practice topic links and runs the  invalid python code", "P1 As a user I want to navigate to the Array Practice home page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50706611abb6b6ba50a057a812b4e308, sendKeysToElement {id=f.D091F21DFF111FB622EF641104C056F3.d.84F0C104E34A2A7CA5B3AB3DC0E46D38.e.48, value=[Ljava.lang.CharSequence;@581c99eb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58125/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (50706611abb6b6ba50a057a812b4e308)] -&gt; xpath: //textarea[@autocorrect=&apos;off&apos;]]
+Session ID: 50706611abb6b6ba50a057a812b4e308
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.PractisePage.enterCode(PractisePage.java:64)
+	at dsalgo_stepdefinition.Practise_stepdefinition.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_array_practise_page_from_given_sheetname_and_rowno(Practise_stepdefinition.java:111)
+	at ✽.the user clicks on run button after providing the invalid python code in array practise page from given sheetname &quot;PythonCode&quot; and rowno 2(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Practice.feature:39)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1355690175", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1355690175'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50706611abb6b6ba50a057a812b4e308, sendKeysToElement {id=f.D091F21DFF111FB622EF641104C056F3.d.84F0C104E34A2A7CA5B3AB3DC0E46D38.e.48, value=[Ljava.lang.CharSequence;@581c99eb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58125/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (50706611abb6b6ba50a057a812b4e308)] -&gt; xpath: //textarea[@autocorrect=&apos;off&apos;]]
+Session ID: 50706611abb6b6ba50a057a812b4e308
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.PractisePage.enterCode(PractisePage.java:64)
+	at dsalgo_stepdefinition.Practise_stepdefinition.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_array_practise_page_from_given_sheetname_and_rowno(Practise_stepdefinition.java:111)
+	at ✽.the user clicks on run button after providing the invalid python code in array practise page from given sheetname &quot;PythonCode&quot; and rowno 2(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Practice.feature:39)
+</pre></div></td>
+<td>34</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ddfa9c764bc98e2020248fc4654567c4, sendKeysToElement {id=f.8FEB9D96F5F96945206315672B7262FF.d.F68C8D93DBBB048ECCCD3366F3AF2902.e.52, value=[Ljava.lang.CharSequence;@4b75d7ea}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ddfa9c764bc98e2020248fc4654567c4)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: ddfa9c764bc98e2020248fc4654567c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:43)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace33776123", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace33776123'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ddfa9c764bc98e2020248fc4654567c4, sendKeysToElement {id=f.8FEB9D96F5F96945206315672B7262FF.d.F68C8D93DBBB048ECCCD3366F3AF2902.e.52, value=[Ljava.lang.CharSequence;@4b75d7ea}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ddfa9c764bc98e2020248fc4654567c4)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: ddfa9c764bc98e2020248fc4654567c4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:43)
+</pre></div></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2e9f22928acdcb9e7ba7bd8b69b37a9, sendKeysToElement {id=f.687559D625B1E647B996AE84C840559C.d.A022F85D57641FDD3A5A8F119C145A5E.e.48, value=[Ljava.lang.CharSequence;@428d15a7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57586/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d2e9f22928acdcb9e7ba7bd8b69b37a9)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: d2e9f22928acdcb9e7ba7bd8b69b37a9
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:82)
+	at ✽.The user clicks on run button after providing the valid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:20)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace736518495", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace736518495'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2e9f22928acdcb9e7ba7bd8b69b37a9, sendKeysToElement {id=f.687559D625B1E647B996AE84C840559C.d.A022F85D57641FDD3A5A8F119C145A5E.e.48, value=[Ljava.lang.CharSequence;@428d15a7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57586/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d2e9f22928acdcb9e7ba7bd8b69b37a9)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: d2e9f22928acdcb9e7ba7bd8b69b37a9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:82)
+	at ✽.The user clicks on run button after providing the valid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:20)
+</pre></div></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ad32826fd251d4ce8d6d7c75fc06e88, sendKeysToElement {id=f.0428E9677CAB15E375E7AA1155D8E93B.d.20119DB486788A7038180554AF9E20A2.e.47, value=[Ljava.lang.CharSequence;@7c8919ff}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57651}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57651/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ad32826fd251d4ce8d6d7c75fc06e88)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 0ad32826fd251d4ce8d6d7c75fc06e88
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:82)
+	at ✽.The user clicks on run button after providing the valid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:20)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1955114738", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1955114738'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ad32826fd251d4ce8d6d7c75fc06e88, sendKeysToElement {id=f.0428E9677CAB15E375E7AA1155D8E93B.d.20119DB486788A7038180554AF9E20A2.e.47, value=[Ljava.lang.CharSequence;@7c8919ff}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57651}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57651/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ad32826fd251d4ce8d6d7c75fc06e88)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 0ad32826fd251d4ce8d6d7c75fc06e88
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:82)
+	at ✽.The user clicks on run button after providing the valid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:20)
+</pre></div></td>
+<td>21</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [432e788bc57e1686ba3892bb5ffeb87f, sendKeysToElement {id=f.EB59573C1F8DB27194F0A80900A2E63D.d.80885AB21228BD206BECEC83EC3E86BB.e.48, value=[Ljava.lang.CharSequence;@7b6528f0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58039}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58039/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (432e788bc57e1686ba3892bb5ffeb87f)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 432e788bc57e1686ba3892bb5ffeb87f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:108)
+	at ✽.The user clicks on run button after providing the invalid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:41)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace877582773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace877582773'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [432e788bc57e1686ba3892bb5ffeb87f, sendKeysToElement {id=f.EB59573C1F8DB27194F0A80900A2E63D.d.80885AB21228BD206BECEC83EC3E86BB.e.48, value=[Ljava.lang.CharSequence;@7b6528f0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58039}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58039/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (432e788bc57e1686ba3892bb5ffeb87f)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 432e788bc57e1686ba3892bb5ffeb87f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.LinkedListPage.EnterCode(LinkedListPage.java:76)
+	at dsalgo_stepdefinition.LinkedList_stepdefination.the_user_clicks_on_run_button_after_providing_the_invalid_python_code_in_linked_list_page_from_given_sheetname_and_rowno_(LinkedList_stepdefination.java:108)
+	at ✽.The user clicks on run button after providing the invalid python code in linked list page from given sheetname &quot;pythonCode&quot; and rowno 1(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Linked_List.feature:41)
+</pre></div></td>
+<td>27</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47d0c47ddba984c6e5fe774cb81170cd, sendKeysToElement {id=f.FD4DCAC014A741BB550A4B83D5615AF7.d.A2BB5CC5EB7442C2C565D6E946DC581A.e.43, value=[Ljava.lang.CharSequence;@7f69c680}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58341/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (47d0c47ddba984c6e5fe774cb81170cd)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 47d0c47ddba984c6e5fe774cb81170cd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.QueuePage.EnterCode(QueuePage.java:73)
+	at dsalgo_stepdefinition.QueuePage_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_queue_page_from_given_sheetname_and_rowno(QueuePage_stepdefination.java:79)
+	at ✽.The user clicks on run button after providing the valid python code in queue page from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Queue.feature:20)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace370009201", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace370009201'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47d0c47ddba984c6e5fe774cb81170cd, sendKeysToElement {id=f.FD4DCAC014A741BB550A4B83D5615AF7.d.A2BB5CC5EB7442C2C565D6E946DC581A.e.43, value=[Ljava.lang.CharSequence;@7f69c680}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58341/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (47d0c47ddba984c6e5fe774cb81170cd)] -&gt; xpath: //*[@id=&quot;answer_form&quot;]/div/div/div[1]/textarea]
+Session ID: 47d0c47ddba984c6e5fe774cb81170cd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.QueuePage.EnterCode(QueuePage.java:73)
+	at dsalgo_stepdefinition.QueuePage_stepdefination.the_user_clicks_on_run_button_after_providing_the_valid_python_code_in_queue_page_from_given_sheetname_and_rowno(QueuePage_stepdefination.java:79)
+	at ✽.The user clicks on run button after providing the valid python code in queue page from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Queue.feature:20)
+</pre></div></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c54b2b3769951e9f2ae45ae7a80f586, sendKeysToElement {id=f.1A0768648A16F13BCFA589188FE09775.d.E03CBFF8806A2DA8A7B09ACE1E42454E.e.53, value=[Ljava.lang.CharSequence;@46e3a092}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58730}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58730/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0c54b2b3769951e9f2ae45ae7a80f586)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 0c54b2b3769951e9f2ae45ae7a80f586
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace561341865", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace561341865'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c54b2b3769951e9f2ae45ae7a80f586, sendKeysToElement {id=f.1A0768648A16F13BCFA589188FE09775.d.E03CBFF8806A2DA8A7B09ACE1E42454E.e.53, value=[Ljava.lang.CharSequence;@46e3a092}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58730}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58730/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0c54b2b3769951e9f2ae45ae7a80f586)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 0c54b2b3769951e9f2ae45ae7a80f586
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+</pre></div></td>
+<td>21</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f63a21f6e233cfefac7a869c42cb75d, sendKeysToElement {id=f.BC2E2A29E0A873E6127C250B1BFC2476.d.2E0FE4F1CE6ED4F7C5A4842BB88B4BD0.e.54, value=[Ljava.lang.CharSequence;@285136b9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58873/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2f63a21f6e233cfefac7a869c42cb75d)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 2f63a21f6e233cfefac7a869c42cb75d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace279683220", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace279683220'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.202)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f63a21f6e233cfefac7a869c42cb75d, sendKeysToElement {id=f.BC2E2A29E0A873E6127C250B1BFC2476.d.2E0FE4F1CE6ED4F7C5A4842BB88B4BD0.e.54, value=[Ljava.lang.CharSequence;@285136b9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\anjuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58873/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2f63a21f6e233cfefac7a869c42cb75d)] -&gt; xpath: //form[@id=&apos;answer_form&apos;]/div/div/div[1]/textarea]
+Session ID: 2f63a21f6e233cfefac7a869c42cb75d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at dsalgoPOM.TreePage.EnterCode(TreePage.java:68)
+	at dsalgo_stepdefinition.DSTreeStepDefinition.the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(DSTreeStepDefinition.java:70)
+	at ✽.the user clicks on run button in tree page after providing the python code from given sheetname &quot;PythonCode&quot; and rowno 0(file:///C:/MyDSAlgoCode/DSAlgoProject/src/test/resources/Features/Tree.feature:18)
+</pre></div></td>
+<td>23</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,360 +1103,260 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  invalid python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
-<td></td>
-<td>14</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>10</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>6</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
-<td></td>
-<td>10</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
-<td></td>
-<td>10</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  invalid python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
-<td></td>
-<td>8</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Datastructures topic links and runs the  invalid python code", "F0 As a user I want to navigate to the Datastructures home page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
-<td></td>
-<td>10</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  invalid python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>15</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is opening the DS_Algo website and navigates the Home Page", "As a User I am able to open the website and have access to the home page"</td>
 <td></td>
-<td>18</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>8</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>6</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>29</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
 <td></td>
+<td>22</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>28</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>16</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>24</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>12</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
 <td>14</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  invalid python code", "F6 As a user I want to navigate to the Graph home page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>6</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration page validation", "F2 User creates new account in the registration page"</td>
-<td></td>
-<td>6</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  python code", "F6 As a user I want to navigate to the Graph home page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array Practice topic links and runs the  python code", "P1 As a user I want to navigate to the Array Practice home page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array Practice topic links and runs the  python code", "P1 As a user I want to navigate to the Array Practice home page"</td>
-<td></td>
-<td>8</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Datastructures topic links and runs the  python code", "F0 As a user I want to navigate to the Datastructures home page"</td>
 <td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>6</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>23</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
 <td></td>
-<td>14</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>15</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>23</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
 <td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  python code", "F6 As a user I want to navigate to the Graph home page"</td>
-<td></td>
-<td>8</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
-<td></td>
-<td>15</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
-<td></td>
-<td>10</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  invalid python code", "F6 As a user I want to navigate to the Graph home page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
-<td></td>
-<td>10</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array Practice topic links and runs the  invalid python code", "P1 As a user I want to navigate to the Array Practice home page"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>14</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
-<td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>14</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
 <td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
-<td></td>
-<td>16</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
-<td></td>
-<td>11</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
-<tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
-<td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>29</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
 <td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>17</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>22</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>29</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>21</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>12</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  invalid python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>25</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
 <td></td>
-<td>5</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>10</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  invalid python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  invalid python code", "F6 As a user I want to navigate to the Graph home page"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>27</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Datastructures topic links and runs the  invalid python code", "F0 As a user I want to navigate to the Datastructures home page"</td>
+<td></td>
+<td>24</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>21</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>12</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>15</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
 <td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  python code", "F6 As a user I want to navigate to the Graph home page"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Graph topic links and runs the  invalid python code", "F6 As a user I want to navigate to the Graph home page"</td>
+<td></td>
+<td>20</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>13</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration page validation", "F2 User creates new account in the registration page"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Stack topic links and runs the  invalid python code", "F3 The signedin user selects the  stack datastructure module and runs the python code"</td>
+<td></td>
+<td>23</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
 <td>14</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
 <td></td>
-<td>7</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>14</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
-<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  invalid python code", "F2 As a user I want to navigate to the Linked List home page"</td>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Linked List topic links and runs the  python code", "F2 As a user I want to navigate to the Linked List home page"</td>
 <td></td>
-<td>15</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>21</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 <tr>
 <td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  python code", "F3 As a Signedin User"</td>
 <td></td>
-<td>10</td>
-<td>dsAlgoRunner.Runner_Test@1aafa419</td></tr>
+<td>21</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array Practice topic links and runs the  python code", "P1 As a user I want to navigate to the Array Practice home page"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array Practice topic links and runs the  python code", "P1 As a user I want to navigate to the Array Practice home page"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>14</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>21</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the invalid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>19</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Queue topic links and runs the  invalid python code", "F3 As a Signedin User"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Array topic links and runs the  invalid python code", "F1 As a user I want to navigate to the Array home page"</td>
+<td></td>
+<td>26</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
+<tr>
+<td title='dsAlgoRunner.Runner_Test.runScenario()'><b>runScenario</b><br>Test class: dsAlgoRunner.Runner_Test<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user clicks the Topic links  from Tree DataStructure and runs the  valid python code", "F3 The signedin user selects the Tree datastructure module and access the page"</td>
+<td></td>
+<td>14</td>
+<td>dsAlgoRunner.Runner_Test@16150369</td></tr>
 </table><p>
 </body>
 </html>

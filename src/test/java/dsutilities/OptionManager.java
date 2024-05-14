@@ -10,7 +10,7 @@ public class OptionManager {
 public ChromeOptions getChromeOptions()
 {
 	ChromeOptions options = new ChromeOptions();
-	options.addArguments("--headless");
+//	options.addArguments("--headless");
 	options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 	
 	return options;
@@ -18,7 +18,7 @@ public ChromeOptions getChromeOptions()
 public FirefoxOptions getFireFoxOptions()
 {
 	FirefoxOptions options = new FirefoxOptions();
-	options.addArguments("--headless");
+//	options.addArguments("--headless");
 	options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 	
 	return options;
@@ -26,7 +26,7 @@ public FirefoxOptions getFireFoxOptions()
 public EdgeOptions getEdgeOptions()
 {
 	EdgeOptions options = new EdgeOptions();
-	options.addArguments("--headless");
+//	options.addArguments("--headless");
 	options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 	return options;
 }

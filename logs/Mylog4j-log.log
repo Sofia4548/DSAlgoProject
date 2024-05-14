@@ -3293,3 +3293,466 @@
 [INFO ] 2024-05-13 13:48:11.177 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
 [INFO ] 2024-05-13 13:48:11.381 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
 [INFO ] 2024-05-13 13:48:47.917 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****NumpyNinja
+[INFO ] 2024-05-13 20:24:18.025 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-13 20:24:18.025 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-13 20:24:18.025 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-13 20:24:18.025 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-13 20:24:18.025 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-13 20:24:18.025 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-13 20:24:18.025 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-13 20:24:18.025 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-13 20:24:21.725 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:21.745 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:21.794 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:21.814 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:21.830 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:21.861 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:21.911 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:21.957 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:24.071 [TestNG-PoolService-1] LoggerLoad - User is on the RegistrationPage
+[INFO ] 2024-05-13 20:24:25.571 [TestNG-PoolService-1] LoggerLoad - Please fill out this field.
+[INFO ] 2024-05-13 20:24:25.951 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-13 20:24:25.988 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-13 20:24:26.007 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-13 20:24:26.127 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-13 20:24:26.130 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-13 20:24:29.284 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:29.375 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:29.443 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:29.518 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:29.527 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:29.547 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:29.642 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:29.644 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:31.734 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-13 20:24:34.887 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:44.514 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-13 20:24:44.597 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-13 20:24:45.260 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:47.318 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:47.369 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:49.027 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-13 20:24:49.516 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:51.861 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:54.563 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:54.591 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:55.082 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:55.182 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:55.332 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:24:58.569 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-13 20:24:58.605 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-13 20:24:59.522 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-13 20:25:00.432 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-13 20:25:01.020 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-13 20:25:02.583 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-13 20:25:03.058 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-13 20:25:03.479 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-13 20:25:03.837 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-13 20:25:04.700 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-13 20:25:05.818 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-13 20:25:05.885 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:06.841 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-13 20:25:07.366 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-13 20:25:07.712 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-13 20:25:08.202 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-13 20:25:08.368 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:08.777 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:08.862 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:09.128 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-13 20:25:09.333 [TestNG-PoolService-10] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:09.425 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:09.636 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-13 20:25:10.080 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:10.398 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:10.632 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-13 20:25:10.948 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:11.541 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-13 20:25:11.756 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:12.239 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-13 20:25:12.494 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-13 20:25:12.588 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:12.646 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-13 20:25:13.282 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:13.330 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-13 20:25:13.365 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-13 20:25:13.571 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:13.686 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:14.330 [TestNG-PoolService-10] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:14.379 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:28.427 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-13 20:25:28.675 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-13 20:25:28.730 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-13 20:25:28.747 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-13 20:25:28.769 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-13 20:25:29.109 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-13 20:25:32.169 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-13 20:25:32.517 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-13 20:25:33.358 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:33.579 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:33.643 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:33.799 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:33.829 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:33.992 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:35.784 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:36.458 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:45.548 [TestNG-PoolService-8] LoggerLoad - User is on the RegistrationPage
+[INFO ] 2024-05-13 20:25:48.229 [TestNG-PoolService-8] LoggerLoad - Please fill out this field.
+[INFO ] 2024-05-13 20:25:48.246 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-13 20:25:48.700 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-13 20:25:50.018 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-13 20:25:51.926 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:52.857 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:53.465 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:53.501 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:53.506 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:54.069 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-13 20:25:54.247 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-13 20:25:54.622 [TestNG-PoolService-10] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:58.974 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:25:59.260 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:00.367 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-13 20:26:05.101 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:25.713 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:27.096 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:27.987 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-13 20:26:31.928 [TestNG-PoolService-10] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:33.801 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-13 20:26:34.972 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:35.506 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-13 20:26:36.381 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:37.414 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:37.580 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:38.574 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:38.837 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:38.934 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:26:51.534 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-13 20:26:51.593 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-13 20:26:57.821 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-13 20:26:58.516 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-13 20:26:59.805 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:01.743 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:02.106 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:02.187 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-13 20:27:02.753 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:04.619 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-13 20:27:05.003 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-13 20:27:05.382 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-13 20:27:16.144 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-13 20:27:17.435 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-13 20:27:17.499 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-13 20:27:17.963 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-13 20:27:18.533 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-13 20:27:20.379 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:20.673 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-13 20:27:22.151 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-13 20:27:22.882 [TestNG-PoolService-10] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:23.417 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-13 20:27:24.325 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Tree
+[INFO ] 2024-05-13 20:27:24.486 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:24.745 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:24.886 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-13 20:27:25.585 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:27.256 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:32.997 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-13 20:27:34.044 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-13 20:27:34.360 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-13 20:27:34.622 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-13 20:27:35.353 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:36.046 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:36.401 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:36.660 [TestNG-PoolService-10] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-13 20:27:36.715 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:37.651 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-13 20:27:38.265 [TestNG-PoolService-10] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-13 20:27:38.931 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:37.213 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-14 08:34:37.213 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-14 08:34:37.213 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-14 08:34:37.213 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-14 08:34:37.213 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-14 08:34:37.213 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-14 08:34:37.213 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-14 08:34:37.213 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-14 08:34:41.464 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:41.508 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:41.525 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:41.528 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:41.582 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:41.619 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:41.669 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:41.730 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:44.915 [TestNG-PoolService-3] LoggerLoad - User is on the RegistrationPage
+[INFO ] 2024-05-14 08:34:47.150 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-14 08:34:47.284 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-14 08:34:47.284 [TestNG-PoolService-3] LoggerLoad - Please fill out this field.
+[INFO ] 2024-05-14 08:34:47.613 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-14 08:34:47.755 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-14 08:34:47.882 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-14 08:34:50.830 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:50.935 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:50.953 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:51.030 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:51.251 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:51.251 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:51.509 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:51.942 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:34:55.622 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-14 08:34:58.660 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:07.662 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:35:08.075 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:35:08.445 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:10.373 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:10.907 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:12.623 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:35:14.207 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:15.483 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:18.129 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:18.241 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:18.314 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:18.628 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:18.742 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:22.724 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-14 08:35:22.866 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-14 08:35:24.344 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-14 08:35:25.059 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-14 08:35:25.082 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-14 08:35:28.205 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-14 08:35:28.271 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-14 08:35:28.763 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-14 08:35:29.578 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-14 08:35:30.171 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-14 08:35:30.291 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:31.412 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-14 08:35:33.352 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-14 08:35:33.624 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:33.737 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:33.871 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:33.883 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-14 08:35:34.189 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-14 08:35:35.005 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-14 08:35:35.192 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-14 08:35:35.389 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:35.786 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:35.823 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-14 08:35:36.651 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:36.696 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:37.470 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:37.604 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-14 08:35:38.849 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-14 08:35:38.863 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-14 08:35:38.989 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:39.003 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-14 08:35:39.507 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-14 08:35:40.016 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:40.201 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:40.415 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-14 08:35:40.528 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-14 08:35:40.548 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:40.628 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:41.268 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:41.365 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:35:58.985 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-14 08:35:59.143 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-14 08:35:59.352 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-14 08:35:59.386 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-14 08:35:59.565 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-14 08:35:59.657 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-14 08:36:01.248 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-14 08:36:01.534 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-14 08:36:04.513 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:04.791 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:04.806 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:04.858 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:05.236 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:05.659 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:06.311 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:06.355 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:17.313 [TestNG-PoolService-4] LoggerLoad - User is on the RegistrationPage
+[INFO ] 2024-05-14 08:36:20.703 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-14 08:36:20.789 [TestNG-PoolService-4] LoggerLoad - Please fill out this field.
+[INFO ] 2024-05-14 08:36:21.820 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-14 08:36:22.294 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-14 08:36:22.376 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-14 08:36:24.649 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-14 08:36:25.296 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:26.689 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:26.815 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:26.948 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:31.357 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-14 08:36:36.154 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:36:56.822 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:37:03.413 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:37:05.028 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:37:05.125 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:37:05.765 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:37:06.507 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:37:07.836 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:37:08.873 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:37:09.416 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:37:10.282 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:37:13.152 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:37:14.379 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:37:14.486 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:05.077 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-14 08:40:05.077 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-14 08:40:05.077 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-14 08:40:05.077 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-14 08:40:05.077 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-14 08:40:05.077 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-14 08:40:05.077 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-14 08:40:05.657 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-14 08:40:11.132 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:11.518 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:11.869 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:12.019 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:12.055 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:12.374 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:12.444 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:12.489 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:20.996 [TestNG-PoolService-6] LoggerLoad - User is on the RegistrationPage
+[INFO ] 2024-05-14 08:40:26.491 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-14 08:40:26.602 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-14 08:40:27.071 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-14 08:40:27.943 [TestNG-PoolService-6] LoggerLoad - Please fill out this field.
+[INFO ] 2024-05-14 08:40:31.874 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-14 08:40:31.956 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:32.957 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:33.008 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:33.655 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-14 08:40:33.734 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:33.750 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:37.037 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:38.129 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:40:48.491 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-14 08:40:53.236 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:06.417 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:13.578 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:41:19.410 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:19.558 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:41:20.012 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:41:20.200 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:21.357 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:21.412 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:24.545 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:36.831 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-14 08:41:40.874 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-14 08:41:44.080 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:44.312 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:49.007 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:41:50.762 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-14 08:41:50.962 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-14 08:41:50.990 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-14 08:41:51.735 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-14 08:41:53.492 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-14 08:41:56.472 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-14 08:41:59.650 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-14 08:42:00.899 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-14 08:42:01.109 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-14 08:42:03.801 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-14 08:42:05.612 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-14 08:42:06.878 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-14 08:42:08.601 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-14 08:42:09.773 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:12.099 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:12.698 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-14 08:42:13.738 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-14 08:42:15.508 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-14 08:42:16.710 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-14 08:42:17.757 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:19.272 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-14 08:42:19.335 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:21.604 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-14 08:42:21.699 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-14 08:42:22.399 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-14 08:42:22.868 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-14 08:42:23.354 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:24.200 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:24.590 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:25.287 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:25.922 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:43.419 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-14 08:42:48.083 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:42:49.375 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Arrays Using List
+[INFO ] 2024-05-14 08:42:53.154 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-14 08:42:54.894 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-14 08:42:55.386 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Basic Operations in Lists
+[INFO ] 2024-05-14 08:42:55.705 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-14 08:42:55.949 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Applications of Array
+[INFO ] 2024-05-14 08:42:58.768 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Arrays in Python
+[INFO ] 2024-05-14 08:43:00.485 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:00.665 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:03.367 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:03.670 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:03.959 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:05.947 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:06.656 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:21.048 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:23.447 [TestNG-PoolService-2] LoggerLoad - User is on the RegistrationPage
+[INFO ] 2024-05-14 08:43:26.433 [TestNG-PoolService-2] LoggerLoad - Please fill out this field.
+[INFO ] 2024-05-14 08:43:27.260 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-14 08:43:27.385 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-14 08:43:27.446 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Time Complexity
+[INFO ] 2024-05-14 08:43:32.560 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:33.818 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:33.955 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-14 08:43:35.106 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:35.111 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Graph
+[INFO ] 2024-05-14 08:43:35.881 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:36.777 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:38.885 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:40.762 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:43:41.487 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Graph Representations
+[INFO ] 2024-05-14 08:43:47.116 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:15.328 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:24.031 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:34.891 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:44:37.724 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:38.586 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:39.006 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:39.074 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:44:40.348 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:41.298 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:41.542 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Assessment
+[INFO ] 2024-05-14 08:44:43.962 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:45.812 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:44:51.565 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:45:12.874 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-14 08:45:12.823 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-14 08:45:17.052 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-14 08:45:18.177 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:45:20.172 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:45:20.564 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:45:24.757 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:45:31.236 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-14 08:45:32.901 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-14 08:45:34.978 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-14 08:45:35.394 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-14 08:45:38.521 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-14 08:45:41.314 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-14 08:45:42.689 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-14 08:45:46.406 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-14 08:45:48.731 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-14 08:45:52.943 [TestNG-PoolService-3] LoggerLoad - Actual title of current page is*****Overview of Trees
+[INFO ] 2024-05-14 08:45:59.700 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Types of Trees
+[INFO ] 2024-05-14 08:46:01.975 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Terminologies
+[INFO ] 2024-05-14 08:46:05.404 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:08.721 [TestNG-PoolService-5] LoggerLoad - Actual title of current page is*****Binary Trees
+[INFO ] 2024-05-14 08:46:08.723 [TestNG-PoolService-1] LoggerLoad - Actual title of current page is*****Implementation in Python
+[INFO ] 2024-05-14 08:46:09.208 [TestNG-PoolService-8] LoggerLoad - Actual title of current page is*****Traversals-Illustration
+[INFO ] 2024-05-14 08:46:15.111 [TestNG-PoolService-4] LoggerLoad - Actual title of current page is*****Types of Binary Trees
+[INFO ] 2024-05-14 08:46:15.253 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:16.525 [TestNG-PoolService-3] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:17.807 [TestNG-PoolService-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:18.527 [TestNG-PoolService-5] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:19.220 [TestNG-PoolService-7] LoggerLoad - Actual title of current page is*****Binary Tree Traversals
+[INFO ] 2024-05-14 08:46:19.372 [TestNG-PoolService-8] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:19.534 [TestNG-PoolService-2] LoggerLoad - Actual title of current page is*****Implementation of Binary Trees
+[INFO ] 2024-05-14 08:46:21.302 [TestNG-PoolService-9] LoggerLoad - Actual title of current page is*****Applications of Binary trees
+[INFO ] 2024-05-14 08:46:21.769 [TestNG-PoolService-4] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:23.298 [TestNG-PoolService-2] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:24.449 [TestNG-PoolService-7] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:24.611 [TestNG-PoolService-9] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:28.577 [TestNG-PoolService-6] LoggerLoad - Actual title of current page is*****Binary Search Trees
+[INFO ] 2024-05-14 08:46:29.814 [TestNG-PoolService-6] LoggerLoad - Logged out successfully
+[INFO ] 2024-05-14 08:46:31.009 [TestNG-PoolService-0] LoggerLoad - Actual title of current page is*****Implementation Of BST
+[INFO ] 2024-05-14 08:46:32.010 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
