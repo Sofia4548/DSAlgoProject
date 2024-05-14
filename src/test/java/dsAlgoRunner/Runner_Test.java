@@ -29,13 +29,13 @@ public class Runner_Test extends AbstractTestNGCucumberTests{
 				
 		return super.scenarios();	
     }
-//	@BeforeTest
-//	@Parameters("browser")
-//	
-//	public void defineBrowser( @Optional("chrome") String browser) throws Throwable{
-//	//public void defineBrowser(String browser) throws Throwable {
-//
-//	ConfigurationReader.setBrowserType(browser);
-//}
+	@BeforeTest
+	@Parameters("browser")
+	
+	//public void defineBrowser( @Optional("chrome") String browser) throws Throwable{
+	public void defineBrowser(String browser) throws Throwable {
+
+	ConfigurationReader.setBrowserType(browser);
+}
 
 }
