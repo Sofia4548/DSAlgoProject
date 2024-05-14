@@ -11,20 +11,14 @@ import org.openqa.selenium.safari.SafariDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
-	// WebDriver driver;
+	
 	private WebDriver driver;
-	//new
-//	public static ChromeOptions co=new ChromeOptions();
-//	public static EdgeOptions ed=new EdgeOptions();
-//	
+	
 	
 	OptionManager optionManager=new OptionManager();
 	public static  ThreadLocal<WebDriver>tldriver=new ThreadLocal<WebDriver>();
 	
-	
-	/*
-	 * This Method initialize the threadlocal driver based on the given browser name
-	 */
+
 	
 	public WebDriver inint(String browser)
 	{
@@ -56,7 +50,7 @@ public class DriverFactory {
 		return getDriver();
 			
 	}
-	//This method gets the webdriver with threadlocal
+	
 	public static  WebDriver getDriver()
 	{
 		return tldriver.get();
