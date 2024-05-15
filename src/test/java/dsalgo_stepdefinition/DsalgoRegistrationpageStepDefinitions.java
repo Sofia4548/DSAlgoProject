@@ -37,7 +37,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 	public void the_message_is_displayed_below_the_password_textbox_to_the_user_as(String expectedMessage) {
 		String msg = registrationpage.getMessageBelowPasswordTextbox();
 		//Assert.assertEquals(expectedMessage, msg);
-		System.out.println(msg);
+		LoggerLoad.info(msg);
+		//System.out.println(msg);
 	}
 
 	@When("The user clicks the register button after leaving the other fields empty and enters the password as {string}")
@@ -74,7 +75,7 @@ public class DsalgoRegistrationpageStepDefinitions {
 			throws InterruptedException {
 		String msg = registrationpage.getMessageBelowUsername();
 //		Assert.assertEquals(Message, msg);
-		System.out.println(msg);
+		//System.out.println(msg);
 		LoggerLoad.info(msg);
 	}
 
@@ -93,7 +94,8 @@ public class DsalgoRegistrationpageStepDefinitions {
 		boolean containsErrorMsg = msg.contains(errormsg);
 		Assert.assertFalse("Expected error message is not displayed'" + errormsg + "' is not displayed",
 				containsErrorMsg);
-		System.out.println("Expected error message: " + errormsg);
+		//System.out.println("Expected error message: " + errormsg);
+		LoggerLoad.info("Expected error message: " + errormsg);
 		
 	}
 

@@ -21,7 +21,7 @@ import io.cucumber.java.en.When;
 public class DSTreeStepDefinition {
 	public TreePage treepage=new TreePage(DriverFactory.getDriver());
 	private String outputdata;
-	private String outputdata1;
+	
 	String file = System.getProperty("user.dir") + "\\src\\test\\resources\\Exceldata\\TestExcelData1.xlsx";
 	@Given("The user is on the Tree page")
 	public void the_user_is_on_the_tree_page() throws FileNotFoundException, IOException, InterruptedException {
@@ -52,11 +52,11 @@ public void the_user_clicks_the_try_here_button_on_the_page_in_tree_datastructur
 	@Then("the user is redirected to the Editor page ot the tree datastructure with Run button")
 public void the_user_is_redirected_to_the_editor_page_ot_the_tree_datastructure_with_run_button() {
 		String title=treepage.geturltitle();
-		System.out.println("The current page is :"+ title);
-		//LoggerLoad.info("Current page is :"+title);
+		//System.out.println("The current page is :"+ title);
+		LoggerLoad.info("Current page is :"+title);
 	   
 	}
-	//To read Valid input data
+	
 	@When("the user clicks on run button in tree page after providing the python code from given sheetname {string} and rowno {int}")
 public void the_user_clicks_on_run_button_in_tree_page_after_providing_the_python_code_from_given_sheetname_and_rowno(String sheetname, Integer rowno) throws InvalidFormatException, IOException, InterruptedException {
 

@@ -6,8 +6,9 @@
       <class name="dsAlgoRunner.Runner_Test">
         <methods>
           <include name="setUpClass"/>
+          <include name="defineBrowser"/>
+          <include name="runScenario"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="10"/>
         </methods>
       </class> <!-- dsAlgoRunner.Runner_Test -->
     </classes>
