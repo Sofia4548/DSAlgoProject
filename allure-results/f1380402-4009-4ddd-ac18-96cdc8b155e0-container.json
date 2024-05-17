@@ -1,1 +1,0 @@
-{"uuid":"f1380402-4009-4ddd-ac18-96cdc8b155e0","name":"edgeBrowser","children":["66a41500-612b-45b8-9b77-f0f0cf46028d"],"befores":[{"name":"defineBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1715550644784,"stop":1715550644784}],"afters":[],"start":1715550644783,"stop":1715550668799}

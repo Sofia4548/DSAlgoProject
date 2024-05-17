@@ -1,1 +1,0 @@
-{"uuid":"bc8fbb86-cf8f-40ad-b142-8d195fda1ea8","name":"TestFirefox","children":["771e78cf-1223-4436-af4a-2494b0e81e48"],"befores":[{"name":"defineBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1715606133532,"stop":1715606133532}],"afters":[],"start":1715606133509,"stop":1715606166208}
